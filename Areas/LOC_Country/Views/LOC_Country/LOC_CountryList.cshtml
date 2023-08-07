@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Country List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using System.Data
+@model DataTable
+
+<table class="table table-responsive table-sm">
+    <thead>
+        <tr>
+            <th>Country ID</th>
+            <th>Country Name</th>
+            <th>Country Code</th>
+            <th>Created</th>
+            <th>Modified</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (DataRow dataRow in Model.Rows)
+        {
+            <tr>
+                <td>@dataRow["CountryID"]</td>
+                <td>@dataRow["CountryName"]</td>
+                <td>@dataRow["CountryCode"]</td>
+                <td>@Convert.ToDateTime(dataRow["Created"]).ToString("dd-MM-yyyy")</td>
+                <td>@Convert.ToDateTime(dataRow["Modified"]).ToString("dd-MM-yyyy")</td>
+                <td><i class="bi bi-pencil-fill"></i> &nbsp;&nbsp;&nbsp;<i class="bi bi-trash3-fill"></i></td>
+            </tr>
+        }
+
+    </tbody>
+</table>

@@ -1,0 +1,57 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AdminPanel
+build_property.RootNamespace = AdminPanel
+build_property.ProjectDir = D:\.Net Core Workshop\Projects\AdminPanel\Admin-Panel-Using-ASP.NET\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\.Net Core Workshop\Projects\AdminPanel\Admin-Panel-Using-ASP.NET
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/LOC_Country/Views/LOC_Country/LOC_CountryAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NvdW50cnlcVmlld3NcTE9DX0NvdW50cnlcTE9DX0NvdW50cnlBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/LOC_Country/Views/LOC_Country/LOC_CountryList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NvdW50cnlcVmlld3NcTE9DX0NvdW50cnlcTE9DX0NvdW50cnlMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/LOC_Country/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NvdW50cnlcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cxfutip2kg
