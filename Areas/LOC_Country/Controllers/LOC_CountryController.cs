@@ -43,23 +43,20 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
             connection.Open();
             SqlCommand command = connection.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
-            //if (modelLOC_Country.CountryID == 0)
-            //{
-                
-            //}
-            command.CommandText = "PR_Country_Insert";
-            //else
-            //{
-            //    command.CommandText = "PR_Country_UpdateByPK";
-            //    command.Parameters.Add("@CountryID", SqlDbType.Int).Value = modelLOC_Country.CountryID;
-            //}
+            if (modelLOC_Country.CountryID == 0)
+            {
+                command.CommandText = "PR_Country_Insert";
+            }
+            else
+            {
+                command.CommandText = "PR_Country_UpdateByPK";
+                command.Parameters.Add("@CountryID", SqlDbType.Int).Value = modelLOC_Country.CountryID;
+            }
             command.Parameters.Add("@CountryName", SqlDbType.VarChar).Value = modelLOC_Country.CountryName;
             command.Parameters.Add("@CountryCode", SqlDbType.VarChar).Value = modelLOC_Country.CountryCode;
-            command.Parameters.Add("@Modified", SqlDbType.DateTime).Value = DBNull.Value;
-            command.Parameters.Add("@Created", SqlDbType.DateTime).Value = DBNull.Value;
             command.ExecuteNonQuery();
-            connection.Close(); 
-            return View("LOC_CountryList");
+            connection.Close();
+            return RedirectToAction("LOC_CountryList");
         }
         #endregion
 
@@ -82,7 +79,7 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
         #region Add
         public IActionResult LOC_CountryAdd(int? CountryID)
         {
-            if(CountryID!=null)
+            if (CountryID != null)
             {
                 string connectionString = this.Configuration.GetConnectionString("ConnectionString");
                 SqlConnection connection = new SqlConnection(connectionString);
@@ -93,8 +90,9 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
                 command.Parameters.Add("@CountryID", SqlDbType.Int).Value = CountryID;
                 SqlDataReader reader = command.ExecuteReader();
                 DataTable table = new DataTable();
-                connection.Close();
                 table.Load(reader);
+                connection.Close();
+                
 
             }
             return View("LOC_CountryAddEdit");

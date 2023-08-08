@@ -31,11 +31,8 @@
                     <form method="post" asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryDelete">
                         <input type="hidden" value="@Convert.ToInt32(dataRow["CountryID"])" name="CountryID" />
                         <button type="submit" class="btn btn-danger" value="Delete">Delete</button>
+                        <a class="btn btn-info btn-xs" asp-controller="LOC_Country" asp-action="LOC_CountryAdd" asp-route-countryid="@Convert.ToInt32(dataRow["CountryID"])">edit</a>
                     </form>
-                    @*<form method="" asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryDelete">
-                        <input type="hidden" value="@Convert.ToInt32(dataRow["CountryID"])" name="CountryID" />
-                        <button type="submit" class="btn btn-danger" value="Delete">Delete</button>
-                    </form>*@
                 </td>
             </tr>
         }
