@@ -30,6 +30,7 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
             SqlDataReader reader = command.ExecuteReader();
             DataTable table = new DataTable();
             table.Load(reader);
+            connection.Close();
             return View(table);
         }
         #endregion
@@ -57,6 +58,7 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
             command.Parameters.Add("@Modified", SqlDbType.DateTime).Value = DBNull.Value;
             command.Parameters.Add("@Created", SqlDbType.DateTime).Value = DBNull.Value;
             command.ExecuteNonQuery();
+            connection.Close(); 
             return View("LOC_CountryList");
         }
         #endregion
@@ -72,6 +74,7 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
             command.CommandText = "PR_Country_DeleteByPK";
             command.Parameters.AddWithValue("@CountryID", CountryID);
             command.ExecuteNonQuery();
+            connection.Close();
             return RedirectToAction("LOC_CountryList");
         }
         #endregion
@@ -90,6 +93,7 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
                 command.Parameters.Add("@CountryID", SqlDbType.Int).Value = CountryID;
                 SqlDataReader reader = command.ExecuteReader();
                 DataTable table = new DataTable();
+                connection.Close();
                 table.Load(reader);
 
             }
