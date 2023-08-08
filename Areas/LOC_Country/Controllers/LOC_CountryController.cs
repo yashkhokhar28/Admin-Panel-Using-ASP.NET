@@ -91,9 +91,6 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
                 SqlDataReader reader = command.ExecuteReader();
                 DataTable table = new DataTable();
                 table.Load(reader);
-                connection.Close();
-                
-
             }
             return View("LOC_CountryAddEdit");
         }
