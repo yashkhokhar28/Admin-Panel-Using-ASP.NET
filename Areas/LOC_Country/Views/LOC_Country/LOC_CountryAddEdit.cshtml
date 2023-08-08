@@ -3,16 +3,16 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
+@model AdminPanel.Areas.LOC_Country.Models.LOC_CountryModel  
 
 <div class="mb-3">
     <label for="formGroupExampleInput" class="form-label">Country Name</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Country Name">
+    <input type="text" name="CountryName" class="form-control" id="formGroupExampleInput" placeholder="Enter Country Name">
 </div>
 <div class="mb-3">
     <label for="formGroupExampleInput2" class="form-label">Country Code</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Country Code">
+    <input type="text" name="CountryCode" class="form-control" id="formGroupExampleInput2" placeholder="Enter Country Code">
 </div>
 <div class="d-grid gap-2 col-6 mx-auto">
-    <button class="btn btn-success" type="button">Add</button>
+    <a  class="btn btn-success" type="button" asp-area="LOC_Country" asp-action="LOC_CountrySave" asp-controller="LOC_Country" value="Add">Save</a>
 </div>
