@@ -3,19 +3,20 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
 @using System.Data
 @model DataTable
-<a type="button" class="btn btn-success" asp-action="LOC_CountryAdd" asp-area="LOC_Country" asp-controller="LOC_Country">Add</a>
 <table class="table table-striped">
     <thead>
         <tr>
-            <th>Country ID</th>
-            <th>Country Name</th>
-            <th>Country Code</th>
-            <th>Created</th>
-            <th>Modified</th>
-            <th>Action</th>
+            <a class="btn btn-outline-primary" asp-action="LOC_CountryAdd" asp-area="LOC_Country" asp-controller="LOC_Country">Add</a>
+        </tr>
+        <tr>
+            <th scope="col">Country ID</th>
+            <th scope="col">Country Name</th>
+            <th scope="col">Country Code</th>
+            <th scope="col">Created</th>
+            <th scope="col">Modified</th>
+            <th scope="col" colspan="2">Action</th>
         </tr>
     </thead>
     <tbody>
@@ -29,9 +30,14 @@
                 <td>@Convert.ToDateTime(dataRow["Modified"]).ToString("dd-MM-yyyy")</td>
                 <td>
                     <form method="post" asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryDelete">
-                        <input type="hidden" value="@Convert.ToInt32(dataRow["CountryID"])" name="CountryID" />
-                        <button type="submit" class="btn btn-danger" value="Delete">Delete</button>
-                        <a class="btn btn-info btn-xs" asp-controller="LOC_Country" asp-action="LOC_CountryAdd" asp-route-countryid="@Convert.ToInt32(dataRow["CountryID"])">edit</a>
+                        <input type="hidden" value="@Convert.ToInt32(dataRow["CountryID"])" name="CountryID">
+                        <button type="submit" class="btn btn-outline-danger" value="Delete">Delete</button>
+                    </form>
+                </td>
+                <td>
+                    <form method="post" asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryAdd">
+                        <input type="hidden" value="@Convert.ToInt32(dataRow["CountryID"])" name="CountryID">
+                        <button type="submit" class="btn btn-outline-success" value="Edit">Edit</button>
                     </form>
                 </td>
             </tr>
