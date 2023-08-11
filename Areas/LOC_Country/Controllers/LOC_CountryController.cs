@@ -110,7 +110,7 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
             LOC_CountryModel lOC_CountryModel = new LOC_CountryModel();
             foreach (DataRow dataRow in table.Rows)
             {
-                lOC_CountryModel.CountryID = Convert.ToInt32(dataRow["ConuntryID"]);
+                lOC_CountryModel.CountryID = Convert.ToInt32(dataRow["CountryID"]);
                 lOC_CountryModel.CountryName = dataRow["CountryName"].ToString();
                 lOC_CountryModel.CountryCode = dataRow["CountryCode"].ToString();
             }
