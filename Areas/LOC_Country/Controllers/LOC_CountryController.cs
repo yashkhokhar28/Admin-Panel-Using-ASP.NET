@@ -68,10 +68,10 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
             else
             {
                 command.CommandText = "PR_Country_UpdateByPK";
-                command.Parameters.Add("@CountryID", SqlDbType.Int).Value = lOC_CountryModel.CountryID;
+                command.Parameters.AddWithValue("@CountryID", CountryID);
             }
-            command.Parameters.Add("@CountryName", SqlDbType.VarChar).Value = lOC_CountryModel.CountryName;
-            command.Parameters.Add("@CountryCode", SqlDbType.VarChar).Value = lOC_CountryModel.CountryCode;
+            command.Parameters.AddWithValue("@CountryName", lOC_CountryModel.CountryName);
+            command.Parameters.AddWithValue("@CountryCode", lOC_CountryModel.CountryCode);
             command.ExecuteNonQuery();
             connection.Close();
             return RedirectToAction("LOC_CountryList");
@@ -103,7 +103,7 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
             SqlCommand command = connection.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
             command.CommandText = "PR_Country_SelectByPK";
-            command.Parameters.AddWithValue("@CountryID", @CountryID);
+            command.Parameters.AddWithValue("@CountryID", CountryID);
             SqlDataReader reader = command.ExecuteReader();
             DataTable table = new DataTable();
             table.Load(reader);
