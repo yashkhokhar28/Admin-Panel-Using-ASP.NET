@@ -7,11 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\LOC_City\Controllers\" />
+    <Folder Include="Areas\LOC_City\Data\" />
+    <Folder Include="Areas\LOC_City\Models\" />
+    <Folder Include="Areas\LOC_City\Views\" />
     <Folder Include="Areas\LOC_Country\Data\" />
+    <Folder Include="Areas\LOC_State\Controllers\" />
+    <Folder Include="Areas\LOC_State\Data\" />
+    <Folder Include="Areas\LOC_State\Models\" />
+    <Folder Include="Areas\LOC_State\Views\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.15" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
