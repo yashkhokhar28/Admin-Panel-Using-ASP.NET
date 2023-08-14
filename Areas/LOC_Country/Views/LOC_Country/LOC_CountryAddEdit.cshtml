@@ -8,20 +8,20 @@
 <div>
     <form method="post" asp-controller="LOC_Country" asp-action="LOC_CountrySave" asp-area="LOC_Country">
         <div asp-validation-summary="All" class="text-danger"></div>
-        <div class="form-group">
-            <label>Country Name</label>
-            <input type="text" value="@Model.CountryName" asp-for="CountryName" />
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Country Name" value="@Model.CountryName" asp-for="CountryName">
+            <label for="floatingInput">Country Name</label>
             <span asp-validation-for="CountryName" class="text-danger"></span>
         </div>
 
-        <div class="form-group">
-            <label>Country Code</label>
-            <input type="text" value="@Model.CountryCode" asp-for="CountryCode" />
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.CountryCode" asp-for="CountryCode" type="text" class="form-control" id="floatingPassword" placeholder="Country Code" />
+            <label for="floatingInput">Country Code</label>
             <span asp-validation-for="CountryCode" class="text-danger"></span>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
             <input type="hidden" name="CountryID" value="@Model.CountryID" />
-            <input type="submit" value="Save" class="submit" />
+            <button type="submit" value="Save" class="submit btn btn-outline-primary">Save</button>
         </div>
     </form>
 </div>
