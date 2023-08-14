@@ -8,22 +8,23 @@
 <div>
     <form method="post" asp-controller="LOC_State" asp-action="LOC_StateSave" asp-area="LOC_State">
         <div asp-validation-summary="All" class="text-danger"></div>
-        <div class="form-group">
-            <label>State Name</label>
-            <input type="text" value="@Model.StateName" asp-for="StateName" />
+        <div class="form-floating mb-3">
+            <label for="floatingInput">State Name</label>
+            <input type="text" value="@Model.StateName" asp-for="StateName" class="form-control" id="floatingInput" placeholder="State Name" />
             <span asp-validation-for="StateName" class="text-danger"></span>
         </div>
 
-        <div class="form-group">
-            <label>State Code</label>
-            <input type="text" value="@Model.StateCode" asp-for="StateCode" />
+        <div class="form-floating mb-3">
+            <label for="floatingInput">State Code</label>
+            <input type="text" value="@Model.StateCode" asp-for="StateCode" class="form-control" id="floatingInput" placeholder="State Name" />
             <span asp-validation-for="StateCode" class="text-danger"></span>
         </div>
 
-        <div class="form-group">
-            <label>Country ID</label>
-            <input type="text" value="@Model.CountryID" asp-for="CountryID" />
-            <span asp-validation-for="CountryID" class="text-danger"></span>
+        <div class="form-group dropdown">
+            <label>Country Name</label>
+            <select class="form-control" asp-for="CountryID" asp-items="@(new SelectList(ViewBag.CountryList,"CountryID","CountryName"))">
+                <option value="">Select Country</option>
+            </select>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
             <input type="hidden" name="StateID" value="@Model.StateID" />

@@ -5,7 +5,6 @@
 
 @model AdminPanel.Areas.LOC_City.Models.LOC_CityModel
 
-
 @{
     Console.WriteLine();
 }
@@ -24,17 +23,17 @@
             <input type="text" value="@Model.CityCode" asp-for="CityCode" />
             <span asp-validation-for="CityCode" class="text-danger"></span>
         </div>
-
         <div class="form-group">
-            <label>State ID ID</label>
-            <input type="text" value="@Model.StateID" asp-for="StateID" />
-            <span asp-validation-for="CityID" class="text-danger"></span>
+            <label>Country Name</label>
+            <select class="form-control" asp-for="CountryID" asp-items="@(new SelectList(ViewBag.CountryList,"CountryID","CountryName"))">
+                <option value="">Select Country</option>
+            </select>
         </div>
-
         <div class="form-group">
-            <label>Country ID</label>
-            <input type="text" value="@Model.CountryID" asp-for="CountryID" />
-            <span asp-validation-for="CityID" class="text-danger"></span>
+            <label>State Name</label>
+            <select class="form-control" asp-for="StateID" asp-items="@(new SelectList(ViewBag.StateList,"StateID","StateName"))">
+                <option value="">Select State</option>
+            </select>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
             <input type="hidden" name="CityID" value="@Model.CityID" />

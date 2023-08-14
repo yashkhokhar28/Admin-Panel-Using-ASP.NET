@@ -5,6 +5,42 @@
       "PackagePath": "staticwebassets\\AdminPanel.bundle.scp.css"
     },
     {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\apps\\css\\inbox.min.css",
+      "PackagePath": "staticwebassets\\apps\\css\\inbox.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\apps\\css\\ticket.min.css",
+      "PackagePath": "staticwebassets\\apps\\css\\ticket.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\apps\\css\\todo-2.min.css",
+      "PackagePath": "staticwebassets\\apps\\css\\todo-2.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\apps\\css\\todo.min.css",
+      "PackagePath": "staticwebassets\\apps\\css\\todo.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\apps\\scripts\\calendar.min.js",
+      "PackagePath": "staticwebassets\\apps\\scripts\\calendar.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\apps\\scripts\\inbox.min.js",
+      "PackagePath": "staticwebassets\\apps\\scripts\\inbox.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\apps\\scripts\\timeline.min.html",
+      "PackagePath": "staticwebassets\\apps\\scripts\\timeline.min.html"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\apps\\scripts\\todo-2.min.js",
+      "PackagePath": "staticwebassets\\apps\\scripts\\todo-2.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\apps\\scripts\\todo.min.js",
+      "PackagePath": "staticwebassets\\apps\\scripts\\todo.min.js"
+    },
+    {
       "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -13,8 +49,1964 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\css\\components.min.css",
+      "PackagePath": "staticwebassets\\global\\css\\components.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\css\\plugins.min.css",
+      "PackagePath": "staticwebassets\\global\\css\\plugins.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\accordion-plusminus.png",
+      "PackagePath": "staticwebassets\\global\\img\\accordion-plusminus.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\datatable-row-openclose.png",
+      "PackagePath": "staticwebassets\\global\\img\\datatable-row-openclose.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\flags\\de.png",
+      "PackagePath": "staticwebassets\\global\\img\\flags\\de.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\flags\\es.png",
+      "PackagePath": "staticwebassets\\global\\img\\flags\\es.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\flags\\fr.png",
+      "PackagePath": "staticwebassets\\global\\img\\flags\\fr.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\flags\\ru.png",
+      "PackagePath": "staticwebassets\\global\\img\\flags\\ru.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\flags\\us.png",
+      "PackagePath": "staticwebassets\\global\\img\\flags\\us.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\loading-spinner-grey.gif",
+      "PackagePath": "staticwebassets\\global\\img\\loading-spinner-grey.gif"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\global\\img\\loading.gif"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\01.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\01.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\02.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\02.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\03.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\03.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\04.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\04.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\05.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\05.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\06.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\06.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\07.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\07.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\1.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\10.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\10.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\12.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\12.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\13.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\13.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\2.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\2.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\3.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\3.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\4.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\4.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\40.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\40.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\41.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\41.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\5.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\5.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\50.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\50.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\57.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\57.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\6.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\6.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\60.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\60.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\7.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\7.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\72.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\72.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\84.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\84.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\1200x900\\92.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\1200x900\\92.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\01.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\01.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\013.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\013.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\02.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\02.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\03.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\03.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\04.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\04.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\05.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\05.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\08.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\08.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\1.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\10.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\10.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\102.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\102.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\12.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\12.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\16.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\16.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\2.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\2.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\21.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\21.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\22.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\22.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\23.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\23.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\24.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\24.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\25.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\25.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\26.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\26.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\27.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\27.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\28.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\28.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\29.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\29.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\3.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\3.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\30.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\30.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\31.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\31.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\32.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\32.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\33.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\33.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\38.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\38.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\4.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\4.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\45.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\45.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\58.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\58.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\6.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\6.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\62.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\62.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\65.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\65.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\81.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\81.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\87.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\87.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\88.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\88.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\94.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\94.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portfolio\\600x600\\96.jpg",
+      "PackagePath": "staticwebassets\\global\\img\\portfolio\\600x600\\96.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portlet-collapse-icon-white.png",
+      "PackagePath": "staticwebassets\\global\\img\\portlet-collapse-icon-white.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portlet-collapse-icon.png",
+      "PackagePath": "staticwebassets\\global\\img\\portlet-collapse-icon.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portlet-config-icon-white.png",
+      "PackagePath": "staticwebassets\\global\\img\\portlet-config-icon-white.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portlet-config-icon.png",
+      "PackagePath": "staticwebassets\\global\\img\\portlet-config-icon.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portlet-expand-icon-white.png",
+      "PackagePath": "staticwebassets\\global\\img\\portlet-expand-icon-white.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portlet-expand-icon.png",
+      "PackagePath": "staticwebassets\\global\\img\\portlet-expand-icon.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portlet-reload-icon-white.png",
+      "PackagePath": "staticwebassets\\global\\img\\portlet-reload-icon-white.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portlet-reload-icon.png",
+      "PackagePath": "staticwebassets\\global\\img\\portlet-reload-icon.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portlet-remove-icon-white.png",
+      "PackagePath": "staticwebassets\\global\\img\\portlet-remove-icon-white.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\portlet-remove-icon.png",
+      "PackagePath": "staticwebassets\\global\\img\\portlet-remove-icon.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\remove-icon-small.png",
+      "PackagePath": "staticwebassets\\global\\img\\remove-icon-small.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\aboutme.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\aboutme.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\amazon.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\amazon.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\behance.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\behance.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\blogger.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\blogger.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\deviantart.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\deviantart.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\dribbble.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\dribbble.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\dropbox.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\dropbox.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\evernote.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\evernote.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\facebook.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\facebook.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\flickr.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\flickr.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\forrst.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\forrst.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\foursquare.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\foursquare.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\github.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\github.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\googleplus.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\googleplus.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\gravatar.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\gravatar.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\instagram.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\instagram.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\jolicloud.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\jolicloud.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\klout.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\klout.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\last-fm.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\last-fm.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\linkedin.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\linkedin.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\myspace.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\myspace.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\picasa.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\picasa.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\pintrest.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\pintrest.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\quora.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\quora.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\reddit.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\reddit.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\rss.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\rss.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\skype.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\skype.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\spotify.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\spotify.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\stumbleupon.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\stumbleupon.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\tumblr.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\tumblr.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\twitter.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\twitter.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\vimeo.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\vimeo.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\vk.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\vk.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\wordpress.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\wordpress.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\xing.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\xing.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\yahoo.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\yahoo.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\social\\youtube.png",
+      "PackagePath": "staticwebassets\\global\\img\\social\\youtube.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\syncfusion-icons-white.png",
+      "PackagePath": "staticwebassets\\global\\img\\syncfusion-icons-white.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\img\\syncfusion-icons.png",
+      "PackagePath": "staticwebassets\\global\\img\\syncfusion-icons.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\amcharts\\amcharts\\amcharts.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\amcharts\\amcharts\\amcharts.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\amcharts\\amcharts\\pie.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\amcharts\\amcharts\\pie.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\amcharts\\amcharts\\radar.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\amcharts\\amcharts\\radar.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\amcharts\\amcharts\\serial.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\amcharts\\amcharts\\serial.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\amcharts\\amcharts\\themes\\chalk.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\amcharts\\amcharts\\themes\\chalk.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\amcharts\\amcharts\\themes\\light.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\amcharts\\amcharts\\themes\\light.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\amcharts\\amcharts\\themes\\patterns.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\amcharts\\amcharts\\themes\\patterns.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\amcharts\\ammap\\ammap.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\amcharts\\ammap\\ammap.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\amcharts\\ammap\\maps\\js\\worldLow.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\amcharts\\ammap\\maps\\js\\worldLow.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\amcharts\\amstockcharts\\amstock.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\amcharts\\amstockcharts\\amstock.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\autosize\\autosize.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\autosize\\autosize.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\backstretch\\jquery.backstretch.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\backstretch\\jquery.backstretch.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootbox\\bootbox.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootbox\\bootbox.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-colorpicker\\css\\colorpicker.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-colorpicker\\css\\colorpicker.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-colorpicker\\img\\alpha.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-colorpicker\\img\\alpha.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-colorpicker\\img\\hue.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-colorpicker\\img\\hue.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-colorpicker\\img\\saturation.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-colorpicker\\img\\saturation.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-colorpicker\\js\\bootstrap-colorpicker.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-colorpicker\\js\\bootstrap-colorpicker.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-confirmation\\bootstrap-confirmation.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-confirmation\\bootstrap-confirmation.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-contextmenu\\bootstrap-contextmenu.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-contextmenu\\bootstrap-contextmenu.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-datepaginator\\bootstrap-datepaginator.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-datepaginator\\bootstrap-datepaginator.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-datepaginator\\bootstrap-datepaginator.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-datepaginator\\bootstrap-datepaginator.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-datepicker\\css\\bootstrap-datepicker3.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-datepicker\\css\\bootstrap-datepicker3.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-datepicker\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-datepicker\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-daterangepicker\\daterangepicker.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-daterangepicker\\daterangepicker.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-daterangepicker\\daterangepicker.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-daterangepicker\\daterangepicker.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-datetimepicker\\css\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-datetimepicker\\css\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-datetimepicker\\js\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-datetimepicker\\js\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-editable\\bootstrap-editable\\css\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-editable\\bootstrap-editable\\css\\bootstrap-editable.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-editable\\bootstrap-editable\\img\\clear.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-editable\\bootstrap-editable\\img\\clear.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-editable\\bootstrap-editable\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-editable\\bootstrap-editable\\img\\loading.gif"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-editable\\bootstrap-editable\\js\\bootstrap-editable.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-editable\\bootstrap-editable\\js\\bootstrap-editable.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-editable\\inputs-ext\\address\\address.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-editable\\inputs-ext\\address\\address.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-editable\\inputs-ext\\address\\address.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-editable\\inputs-ext\\address\\address.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-editable\\inputs-ext\\wysihtml5\\wysihtml5.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-editable\\inputs-ext\\wysihtml5\\wysihtml5.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-fileinput\\bootstrap-fileinput.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-fileinput\\bootstrap-fileinput.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-fileinput\\bootstrap-fileinput.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-fileinput\\bootstrap-fileinput.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-growl\\jquery.bootstrap-growl.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-growl\\jquery.bootstrap-growl.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-markdown\\css\\bootstrap-markdown.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-markdown\\css\\bootstrap-markdown.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-markdown\\js\\bootstrap-markdown.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-markdown\\js\\bootstrap-markdown.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-markdown\\lib\\markdown.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-markdown\\lib\\markdown.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-maxlength\\bootstrap-maxlength.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-maxlength\\bootstrap-maxlength.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-modal\\css\\bootstrap-modal-bs3patch.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-modal\\css\\bootstrap-modal-bs3patch.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-modal\\css\\bootstrap-modal.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-modal\\css\\bootstrap-modal.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-modal\\js\\bootstrap-modal.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-modal\\js\\bootstrap-modal.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-modal\\js\\bootstrap-modalmanager.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-modal\\js\\bootstrap-modalmanager.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-multiselect\\css\\bootstrap-multiselect.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-multiselect\\css\\bootstrap-multiselect.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-multiselect\\js\\bootstrap-multiselect.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-multiselect\\js\\bootstrap-multiselect.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-pwstrength\\pwstrength-bootstrap.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-pwstrength\\pwstrength-bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-select\\css\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-select\\css\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-select\\js\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-select\\js\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-selectsplitter\\bootstrap-selectsplitter.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-selectsplitter\\bootstrap-selectsplitter.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-sessiontimeout\\bootstrap-session-timeout.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-sessiontimeout\\bootstrap-session-timeout.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-summernote\\font\\summernoted41d.eot",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-summernote\\font\\summernoted41d.eot"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-summernote\\font\\summernotef534.eot",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-summernote\\font\\summernotef534.eot"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-summernote\\font\\summernotef534.ttf",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-summernote\\font\\summernotef534.ttf"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-summernote\\font\\summernotef534.woff",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-summernote\\font\\summernotef534.woff"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-summernote\\summernote.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-summernote\\summernote.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-summernote\\summernote.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-summernote\\summernote.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-sweetalert\\sweetalert.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-sweetalert\\sweetalert.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-switch\\css\\bootstrap-switch.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-switch\\css\\bootstrap-switch.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-switch\\js\\bootstrap-switch.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-switch\\js\\bootstrap-switch.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-tabdrop\\js\\bootstrap-tabdrop.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-tabdrop\\js\\bootstrap-tabdrop.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-table\\bootstrap-table.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-table\\bootstrap-table.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-table\\bootstrap-table.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-table\\bootstrap-table.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput-typeahead.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput-typeahead.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-timepicker\\css\\bootstrap-timepicker.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-timepicker\\css\\bootstrap-timepicker.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-timepicker\\js\\bootstrap-timepicker.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-timepicker\\js\\bootstrap-timepicker.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-toastr\\toastr.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-toastr\\toastr.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-toastr\\toastr.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-toastr\\toastr.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-touchspin\\bootstrap.touchspin.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-touchspin\\bootstrap.touchspin.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-touchspin\\bootstrap.touchspin.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-touchspin\\bootstrap.touchspin.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-typeahead\\bootstrap3-typeahead.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-typeahead\\bootstrap3-typeahead.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-wizard\\jquery.bootstrap.wizard.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-wizard\\jquery.bootstrap.wizard.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-wysihtml5\\bootstrap-wysihtml5.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-wysihtml5\\bootstrap-wysihtml5.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-wysihtml5\\bootstrap-wysihtml5.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-wysihtml5\\bootstrap-wysihtml5.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap-wysihtml5\\wysihtml5-0.3.0.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap-wysihtml5\\wysihtml5-0.3.0.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\clipboardjs\\clipboard.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\clipboardjs\\clipboard.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\clockface\\css\\clockface.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\clockface\\css\\clockface.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\clockface\\js\\clockface.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\clockface\\js\\clockface.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\codemirror\\lib\\codemirror.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\codemirror\\lib\\codemirror.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\codemirror\\lib\\codemirror.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\codemirror\\lib\\codemirror.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\codemirror\\mode\\css\\css.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\codemirror\\mode\\css\\css.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\codemirror\\mode\\htmlmixed\\htmlmixed.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\codemirror\\mode\\htmlmixed\\htmlmixed.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\codemirror\\mode\\javascript\\javascript.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\codemirror\\mode\\javascript\\javascript.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\codemirror\\theme\\ambiance.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\codemirror\\theme\\ambiance.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\codemirror\\theme\\material.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\codemirror\\theme\\material.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\codemirror\\theme\\neat.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\codemirror\\theme\\neat.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\codemirror\\theme\\neo.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\codemirror\\theme\\neo.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\countdown\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\countdown\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\counterup\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\counterup\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\counterup\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\counterup\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\cubeportfolio\\css\\cubeportfolio.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\cubeportfolio\\css\\cubeportfolio.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\cubeportfolio\\img\\cbp-sprite.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\cubeportfolio\\img\\cbp-sprite.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\cubeportfolio\\js\\jquery.cubeportfolio.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\cubeportfolio\\js\\jquery.cubeportfolio.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\DataTables-1.10.12\\images\\sort_asc.html",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\DataTables-1.10.12\\images\\sort_asc.html"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\DataTables-1.10.12\\images\\sort_asc_disabled.html",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\DataTables-1.10.12\\images\\sort_asc_disabled.html"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\DataTables-1.10.12\\images\\sort_both.html",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\DataTables-1.10.12\\images\\sort_both.html"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\DataTables-1.10.12\\images\\sort_desc.html",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\DataTables-1.10.12\\images\\sort_desc.html"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\DataTables-1.10.12\\images\\sort_desc_disabled.html",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\DataTables-1.10.12\\images\\sort_desc_disabled.html"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\datatables.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\datatables.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\datatables.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\plugins\\bootstrap\\datatables.bootstrap.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\plugins\\bootstrap\\datatables.bootstrap.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\datatables\\plugins\\bootstrap\\datatables.bootstrap.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\datatables\\plugins\\bootstrap\\datatables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\dropzone\\basic.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\dropzone\\basic.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\dropzone\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\dropzone\\dropzone.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\echarts\\echarts.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\echarts\\echarts.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\fancybox\\source\\blank.gif",
+      "PackagePath": "staticwebassets\\global\\plugins\\fancybox\\source\\blank.gif"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\fancybox\\source\\fancybox_loading.gif",
+      "PackagePath": "staticwebassets\\global\\plugins\\fancybox\\source\\fancybox_loading.gif"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\fancybox\\source\\fancybox_loading@2x.gif",
+      "PackagePath": "staticwebassets\\global\\plugins\\fancybox\\source\\fancybox_loading@2x.gif"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\fancybox\\source\\fancybox_overlay.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\fancybox\\source\\fancybox_overlay.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\fancybox\\source\\fancybox_sprite.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\fancybox\\source\\fancybox_sprite.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\fancybox\\source\\fancybox_sprite@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\fancybox\\source\\fancybox_sprite@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\fancybox\\source\\jquery.fancybox.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\fancybox\\source\\jquery.fancybox.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\fancybox\\source\\jquery.fancybox.pack.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\fancybox\\source\\jquery.fancybox.pack.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\flot\\jquery.flot.axislabels.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\flot\\jquery.flot.axislabels.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\flot\\jquery.flot.categories.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\flot\\jquery.flot.categories.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\flot\\jquery.flot.crosshair.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\flot\\jquery.flot.crosshair.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\flot\\jquery.flot.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\flot\\jquery.flot.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\flot\\jquery.flot.pie.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\flot\\jquery.flot.pie.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\flot\\jquery.flot.resize.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\flot\\jquery.flot.resize.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\flot\\jquery.flot.stack.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\flot\\jquery.flot.stack.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\flowchart\\flowchart.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\flowchart\\flowchart.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\fuelux\\js\\spinner.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\fuelux\\js\\spinner.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\fullcalendar\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\fullcalendar\\fullcalendar.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\gmaps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\gmaps\\gmaps.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\highcharts\\js\\highcharts-3d.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\highcharts\\js\\highcharts-3d.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\highcharts\\js\\highcharts-more.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\highcharts\\js\\highcharts-more.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\highcharts\\js\\highcharts.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\highcharts\\js\\highcharts.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\highmaps\\js\\modules\\data.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\highmaps\\js\\modules\\data.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\highmaps\\js\\modules\\map.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\highmaps\\js\\modules\\map.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\highstock\\js\\highstock.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\highstock\\js\\highstock.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\holder.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\holder.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\horizontal-timeline\\horizontal-timeline.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\horizontal-timeline\\horizontal-timeline.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\icheck.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\icheck.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\all.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\all.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\_all.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\_all.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\aero.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\aero.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\aero@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\aero@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\blue.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\blue.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\blue@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\blue@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\flat.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\flat.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\flat@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\flat@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\green.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\green.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\green@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\green@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\grey.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\grey.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\grey@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\grey@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\orange.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\orange.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\orange@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\orange@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\pink.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\pink.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\pink@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\pink@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\purple.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\purple.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\purple@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\purple@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\red.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\red.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\red@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\red@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\yellow.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\yellow.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\flat\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\flat\\yellow@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\futurico\\futurico.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\futurico\\futurico.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\futurico\\futurico.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\futurico\\futurico.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\futurico\\futurico@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\futurico\\futurico@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\line\\_all.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\line\\_all.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\line\\line.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\line\\line.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\line\\line@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\line\\line@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\_all.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\_all.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\aero.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\aero.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\aero@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\aero@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\blue.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\blue.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\blue@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\blue@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\green.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\green.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\green@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\green@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\grey.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\grey.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\grey@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\grey@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\minimal.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\minimal.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\minimal@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\minimal@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\orange.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\orange.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\orange@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\orange@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\pink.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\pink.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\pink@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\pink@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\purple.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\purple.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\purple@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\purple@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\red.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\red.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\red@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\red@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\yellow.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\yellow.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\minimal\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\minimal\\yellow@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\polaris\\polaris.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\polaris\\polaris.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\polaris\\polaris.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\polaris\\polaris.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\polaris\\polaris@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\polaris\\polaris@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\_all.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\_all.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\aero.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\aero.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\aero@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\aero@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\blue.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\blue.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\blue@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\blue@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\green.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\green.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\green@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\green@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\grey.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\grey.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\grey@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\grey@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\orange.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\orange.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\orange@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\orange@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\pink.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\pink.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\pink@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\pink@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\purple.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\purple.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\purple@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\purple@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\red.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\red.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\red@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\red@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\square.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\square.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\square@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\square@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\yellow.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\yellow.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\icheck\\skins\\square\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\icheck\\skins\\square\\yellow@2x.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\ion.rangeslider\\css\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\ion.rangeslider\\css\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\ion.rangeslider\\css\\ion.rangeSlider.skinFlat.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\ion.rangeslider\\css\\ion.rangeSlider.skinFlat.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\ion.rangeslider\\img\\sprite-skin-flat.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\ion.rangeslider\\img\\sprite-skin-flat.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\ion.rangeslider\\js\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\ion.rangeslider\\js\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jcrop\\css\\Jcrop.gif",
+      "PackagePath": "staticwebassets\\global\\plugins\\jcrop\\css\\Jcrop.gif"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jcrop\\css\\jquery.Jcrop.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\jcrop\\css\\jquery.Jcrop.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jcrop\\demos\\demo_files\\image1.jpg",
+      "PackagePath": "staticwebassets\\global\\plugins\\jcrop\\demos\\demo_files\\image1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jcrop\\demos\\demo_files\\image2.jpg",
+      "PackagePath": "staticwebassets\\global\\plugins\\jcrop\\demos\\demo_files\\image2.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jcrop\\demos\\demo_files\\image3.jpg",
+      "PackagePath": "staticwebassets\\global\\plugins\\jcrop\\demos\\demo_files\\image3.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jcrop\\demos\\demo_files\\image4.jpg",
+      "PackagePath": "staticwebassets\\global\\plugins\\jcrop\\demos\\demo_files\\image4.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jcrop\\demos\\demo_files\\image5.jpg",
+      "PackagePath": "staticwebassets\\global\\plugins\\jcrop\\demos\\demo_files\\image5.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jcrop\\js\\jquery.Jcrop.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jcrop\\js\\jquery.Jcrop.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jcrop\\js\\jquery.color.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jcrop\\js\\jquery.color.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-bootpag\\jquery.bootpag.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-bootpag\\jquery.bootpag.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-cookiebar\\jquery.cookieBar.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-cookiebar\\jquery.cookieBar.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-easypiechart\\jquery.easypiechart.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-easypiechart\\jquery.easypiechart.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\blueimp-gallery\\blueimp-gallery.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\blueimp-gallery\\blueimp-gallery.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\blueimp-gallery\\jquery.blueimp-gallery.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\blueimp-gallery\\jquery.blueimp-gallery.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\css\\jquery.fileupload-ui.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\css\\jquery.fileupload-ui.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\css\\jquery.fileupload.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\css\\jquery.fileupload.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\img\\error.html",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\img\\error.html"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\img\\loading.gif"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\img\\play-pause.html",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\img\\play-pause.html"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\img\\progressbar.gif",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\img\\progressbar.gif"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\img\\video-play.html",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\img\\video-play.html"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload-audio.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload-audio.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload-image.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload-image.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload-process.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload-process.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload-ui.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload-ui.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload-validate.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload-validate.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload-video.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload-video.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\js\\jquery.fileupload.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\js\\jquery.iframe-transport.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\js\\jquery.iframe-transport.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\js\\vendor\\canvas-to-blob.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\js\\vendor\\canvas-to-blob.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\js\\vendor\\jquery.ui.widget.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\js\\vendor\\jquery.ui.widget.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\js\\vendor\\load-image.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\js\\vendor\\load-image.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-file-upload\\js\\vendor\\tmpl.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-file-upload\\js\\vendor\\tmpl.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-idle-timeout\\jquery.idletimeout.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-idle-timeout\\jquery.idletimeout.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-idle-timeout\\jquery.idletimer.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-idle-timeout\\jquery.idletimer.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-inputmask\\jquery.inputmask.bundle.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-inputmask\\jquery.inputmask.bundle.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-knob\\js\\jquery.knob.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-knob\\js\\jquery.knob.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-minicolors\\jquery.minicolors.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-minicolors\\jquery.minicolors.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-minicolors\\jquery.minicolors.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-minicolors\\jquery.minicolors.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-minicolors\\jquery.minicolors.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-minicolors\\jquery.minicolors.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-multi-select\\css\\multi-select.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-multi-select\\css\\multi-select.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-multi-select\\img\\switch.png",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-multi-select\\img\\switch.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-multi-select\\js\\jquery.multi-select.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-multi-select\\js\\jquery.multi-select.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-nestable\\jquery.nestable.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-nestable\\jquery.nestable.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-nestable\\jquery.nestable.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-nestable\\jquery.nestable.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-notific8\\jquery.notific8.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-notific8\\jquery.notific8.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-notific8\\jquery.notific8.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-notific8\\jquery.notific8.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-repeater\\jquery.repeater.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-repeater\\jquery.repeater.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-slimscroll\\jquery.slimscroll.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-slimscroll\\jquery.slimscroll.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-validation\\js\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-validation\\js\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery-validation\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery-validation\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery.blockui.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery.blockui.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery.input-ip-address-control-1.0.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery.input-ip-address-control-1.0.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery.mockjax.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery.mockjax.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery.pulsate.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery.pulsate.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jqvmap\\jqvmap\\data\\jquery.vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jqvmap\\jqvmap\\data\\jquery.vmap.sampledata.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jqvmap\\jqvmap\\jquery.vmap.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jqvmap\\jqvmap\\jquery.vmap.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jqvmap\\jqvmap\\jqvmap.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\jqvmap\\jqvmap\\jqvmap.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jqvmap\\jqvmap\\maps\\jquery.vmap.europe.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jqvmap\\jqvmap\\maps\\jquery.vmap.europe.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jqvmap\\jqvmap\\maps\\jquery.vmap.germany.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jqvmap\\jqvmap\\maps\\jquery.vmap.germany.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jqvmap\\jqvmap\\maps\\jquery.vmap.russia.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jqvmap\\jqvmap\\maps\\jquery.vmap.russia.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jqvmap\\jqvmap\\maps\\jquery.vmap.usa.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jqvmap\\jqvmap\\maps\\jquery.vmap.usa.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jqvmap\\jqvmap\\maps\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jqvmap\\jqvmap\\maps\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\js.cookie.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\js.cookie.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jstree\\dist\\jstree.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\jstree\\dist\\jstree.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\jstree\\dist\\themes\\default\\style.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\jstree\\dist\\themes\\default\\style.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\ladda\\ladda-themeless.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\ladda\\ladda-themeless.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\ladda\\ladda.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\ladda\\ladda.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\ladda\\spin.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\ladda\\spin.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\moment.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\moment.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\morris\\morris.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\morris\\morris.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\morris\\morris.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\morris\\morris.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\morris\\raphael-min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\morris\\raphael-min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\nouislider\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\nouislider\\nouislider.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\nouislider\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\nouislider\\nouislider.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\nouislider\\nouislider.pips.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\nouislider\\nouislider.pips.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\nouislider\\wNumb.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\nouislider\\wNumb.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\pace\\pace.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\pace\\pace.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\pace\\themes\\pace-theme-big-counter.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\pace\\themes\\pace-theme-big-counter.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\pace\\themes\\pace-theme-flash.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\pace\\themes\\pace-theme-flash.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\plupload\\js\\plupload.full.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\plupload\\js\\plupload.full.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\raphael.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\raphael.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\select2\\css\\select2-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\select2\\css\\select2-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\select2\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\select2\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\simple-line-icons\\fonts\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\global\\plugins\\simple-line-icons\\fonts\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\simple-line-icons\\fonts\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\global\\plugins\\simple-line-icons\\fonts\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\simple-line-icons\\fonts\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\global\\plugins\\simple-line-icons\\fonts\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\simple-line-icons\\fonts\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\global\\plugins\\simple-line-icons\\fonts\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\simple-line-icons\\fonts\\Simple-Line-Iconsd41d.eot",
+      "PackagePath": "staticwebassets\\global\\plugins\\simple-line-icons\\fonts\\Simple-Line-Iconsd41d.eot"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\simple-line-icons\\simple-line-icons.min.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\simple-line-icons\\simple-line-icons.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\socicon\\font\\socicon.eot",
+      "PackagePath": "staticwebassets\\global\\plugins\\socicon\\font\\socicon.eot"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\socicon\\font\\socicon.svg",
+      "PackagePath": "staticwebassets\\global\\plugins\\socicon\\font\\socicon.svg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\socicon\\font\\socicon.ttf",
+      "PackagePath": "staticwebassets\\global\\plugins\\socicon\\font\\socicon.ttf"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\socicon\\font\\socicon.woff",
+      "PackagePath": "staticwebassets\\global\\plugins\\socicon\\font\\socicon.woff"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\socicon\\font\\socicon.woff2",
+      "PackagePath": "staticwebassets\\global\\plugins\\socicon\\font\\socicon.woff2"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\socicon\\font\\socicond41d.eot",
+      "PackagePath": "staticwebassets\\global\\plugins\\socicon\\font\\socicond41d.eot"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\socicon\\socicon.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\socicon\\socicon.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\typeahead\\handlebars.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\typeahead\\handlebars.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\typeahead\\typeahead.bundle.min.js",
+      "PackagePath": "staticwebassets\\global\\plugins\\typeahead\\typeahead.bundle.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\plugins\\typeahead\\typeahead.css",
+      "PackagePath": "staticwebassets\\global\\plugins\\typeahead\\typeahead.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\scripts\\app.min.js",
+      "PackagePath": "staticwebassets\\global\\scripts\\app.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\scripts\\datatable.js",
+      "PackagePath": "staticwebassets\\global\\scripts\\datatable.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\scripts\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\global\\scripts\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\scripts\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\global\\scripts\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\scripts\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\global\\scripts\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\scripts\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\global\\scripts\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\scripts\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\global\\scripts\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\scripts\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\global\\scripts\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\scripts\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\global\\scripts\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\global\\scripts\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\global\\scripts\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
       "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\global\\scripts\\cookie-consent.min.js",
+      "PackagePath": "staticwebassets\\layouts\\global\\scripts\\cookie-consent.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\global\\scripts\\quick-nav.min.js",
+      "PackagePath": "staticwebassets\\layouts\\global\\scripts\\quick-nav.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\global\\scripts\\quick-sidebar.min.js",
+      "PackagePath": "staticwebassets\\layouts\\global\\scripts\\quick-sidebar.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout3\\img\\avatar1.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout3\\img\\avatar1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout3\\img\\avatar2.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout3\\img\\avatar2.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout3\\img\\avatar3.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout3\\img\\avatar3.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\css\\custom.min.css",
+      "PackagePath": "staticwebassets\\layouts\\layout\\css\\custom.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\css\\layout.min.css",
+      "PackagePath": "staticwebassets\\layouts\\layout\\css\\layout.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\css\\themes\\darkblue.min.css",
+      "PackagePath": "staticwebassets\\layouts\\layout\\css\\themes\\darkblue.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\img\\avatar1.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout\\img\\avatar1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\img\\avatar10.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout\\img\\avatar10.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\img\\avatar11.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout\\img\\avatar11.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\img\\avatar2.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout\\img\\avatar2.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\img\\avatar3.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout\\img\\avatar3.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\img\\avatar3_small.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout\\img\\avatar3_small.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\img\\avatar4.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout\\img\\avatar4.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\img\\avatar6.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout\\img\\avatar6.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\img\\avatar7.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout\\img\\avatar7.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\img\\avatar8.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout\\img\\avatar8.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\img\\avatar9.jpg",
+      "PackagePath": "staticwebassets\\layouts\\layout\\img\\avatar9.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\img\\icon-color-close.png",
+      "PackagePath": "staticwebassets\\layouts\\layout\\img\\icon-color-close.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\img\\icon-color.png",
+      "PackagePath": "staticwebassets\\layouts\\layout\\img\\icon-color.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\scripts\\demo.min.js",
+      "PackagePath": "staticwebassets\\layouts\\layout\\scripts\\demo.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\layouts\\layout\\scripts\\layout.min.js",
+      "PackagePath": "staticwebassets\\layouts\\layout\\scripts\\layout.min.js"
     },
     {
       "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -197,6 +2189,194 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js"
+    },
+    {
       "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -243,6 +2423,774 @@
     {
       "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\about.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\about.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\blog.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\blog.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\coming-soon.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\coming-soon.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\contact.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\contact.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\error.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\error.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\faq.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\faq.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\image-crop.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\image-crop.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\invoice-2.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\invoice-2.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\invoice.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\invoice.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\lock-2.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\lock-2.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\lock.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\lock.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\login-2.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\login-2.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\login-3.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\login-3.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\login-4.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\login-4.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\login-5.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\login-5.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\login.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\login.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\portfolio.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\portfolio.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\pricing.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\pricing.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\profile-2.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\profile-2.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\profile.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\profile.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\css\\search.min.css",
+      "PackagePath": "staticwebassets\\pages\\css\\search.min.css"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\avatars\\team1.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\avatars\\team1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\avatars\\team12.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\avatars\\team12.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\avatars\\team2.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\avatars\\team2.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\avatars\\team3.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\avatars\\team3.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\avatars\\team4.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\avatars\\team4.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\avatars\\team5.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\avatars\\team5.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\avatars\\team6.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\avatars\\team6.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\avatars\\team7.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\avatars\\team7.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\avatars\\team8.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\avatars\\team8.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\background\\1.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\background\\1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\background\\12.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\background\\12.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\background\\32.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\background\\32.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\background\\34.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\background\\34.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\background\\37.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\background\\37.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\background\\4.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\background\\4.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\background\\42.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\background\\42.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\background\\43.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\background\\43.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\background\\46.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\background\\46.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\background\\53.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\background\\53.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\background\\57.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\background\\57.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\background\\59.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\background\\59.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\background\\7.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\background\\7.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\bg-white-lock.png",
+      "PackagePath": "staticwebassets\\pages\\img\\bg-white-lock.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\bg-white.png",
+      "PackagePath": "staticwebassets\\pages\\img\\bg-white.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\login\\bg1.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\login\\bg1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\login\\login-invert.png",
+      "PackagePath": "staticwebassets\\pages\\img\\login\\login-invert.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\login\\logo.png",
+      "PackagePath": "staticwebassets\\pages\\img\\login\\logo.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\logo-big-white.png",
+      "PackagePath": "staticwebassets\\pages\\img\\logo-big-white.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\logo-big.png",
+      "PackagePath": "staticwebassets\\pages\\img\\logo-big.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\logos\\logo5.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\logos\\logo5.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\page_general_search\\01.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\page_general_search\\01.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\page_general_search\\02.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\page_general_search\\02.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\page_general_search\\03.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\page_general_search\\03.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\page_general_search\\04.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\page_general_search\\04.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\page_general_search\\05.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\page_general_search\\05.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\page_general_search\\06.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\page_general_search\\06.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\page_general_search\\1.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\page_general_search\\1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\page_general_search\\2.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\page_general_search\\2.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\page_general_search\\3.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\page_general_search\\3.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\page_general_search\\4.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\page_general_search\\4.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\img\\page_general_search\\5.jpg",
+      "PackagePath": "staticwebassets\\pages\\img\\page_general_search\\5.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\bg\\5.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\bg\\5.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\blog\\4.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\blog\\4.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\blog\\5.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\blog\\5.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\blog\\6.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\blog\\6.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\gallery\\image2.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\gallery\\image2.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\gallery\\image4.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\gallery\\image4.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\invoice\\walmart.png",
+      "PackagePath": "staticwebassets\\pages\\media\\invoice\\walmart.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\pages\\earth.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\pages\\earth.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\profile\\people19.png",
+      "PackagePath": "staticwebassets\\pages\\media\\profile\\people19.png"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\profile\\photo1.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\profile\\photo1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\profile\\photo2.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\profile\\photo2.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\profile\\photo3.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\profile\\photo3.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\profile\\profile.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\profile\\profile.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\profile\\profile_user.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\profile\\profile_user.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar1.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar10.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar10.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar2.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar2.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar3.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar3.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar4.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar4.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar5.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar5.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar6.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar6.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar7.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar7.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar8.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar8.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar80_1.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar80_1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar80_2.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar80_2.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar80_3.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar80_3.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar80_5.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar80_5.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar80_6.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar80_6.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar80_7.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar80_7.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar80_8.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar80_8.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\avatar9.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\avatar9.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\teambg1.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\teambg1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\teambg2.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\teambg2.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\teambg5.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\teambg5.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\users\\teambg8.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\users\\teambg8.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\works\\img1.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\works\\img1.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\works\\img2.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\works\\img2.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\works\\img3.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\works\\img3.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\media\\works\\img4.jpg",
+      "PackagePath": "staticwebassets\\pages\\media\\works\\img4.jpg"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\charts-amcharts.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\charts-amcharts.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\charts-echarts.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\charts-echarts.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\charts-flotcharts.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\charts-flotcharts.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\charts-flowchart.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\charts-flowchart.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\charts-google.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\charts-google.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\charts-highcharts.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\charts-highcharts.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\charts-highmaps.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\charts-highmaps.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\charts-highstock.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\charts-highstock.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\charts-morris.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\charts-morris.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\coming-soon.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\coming-soon.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-bootstrap-maxlength.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-bootstrap-maxlength.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-bootstrap-multiselect.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-bootstrap-multiselect.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-bootstrap-select-splitter.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-bootstrap-select-splitter.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-bootstrap-select.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-bootstrap-switch.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-bootstrap-switch.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-bootstrap-tagsinput.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-bootstrap-tagsinput.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-bootstrap-touchspin.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-bootstrap-touchspin.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-clipboard.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-clipboard.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-code-editors.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-code-editors.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-color-pickers.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-color-pickers.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-context-menu.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-context-menu.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-date-time-pickers.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-date-time-pickers.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-editors.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-editors.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-form-tools.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-form-tools.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-ion-sliders.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-ion-sliders.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-knob-dials.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-knob-dials.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-multi-select.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-multi-select.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-nouisliders.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-nouisliders.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-select2.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-select2.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\components-typeahead.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\components-typeahead.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\contact.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\contact.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\dashboard.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\dashboard.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ecommerce-dashboard.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ecommerce-dashboard.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ecommerce-orders-view.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ecommerce-orders-view.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ecommerce-orders.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ecommerce-orders.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ecommerce-products-edit.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ecommerce-products-edit.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ecommerce-products.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ecommerce-products.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\form-dropzone.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\form-dropzone.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\form-editable.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\form-editable.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\form-fileupload.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\form-fileupload.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\form-icheck.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\form-icheck.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\form-image-crop.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\form-image-crop.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\form-input-mask.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\form-input-mask.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\form-repeater.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\form-repeater.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\form-samples.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\form-samples.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\form-validation-md.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\form-validation-md.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\form-validation.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\form-validation.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\form-wizard.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\form-wizard.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\lock-2.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\lock-2.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\lock.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\lock.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\login-4.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\login-4.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\login-5.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\login-5.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\login.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\login.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\maps-google.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\maps-google.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\maps-vector.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\maps-vector.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\portfolio-1.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\portfolio-1.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\portfolio-2.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\portfolio-2.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\portfolio-3.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\portfolio-3.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\portfolio-4.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\portfolio-4.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\portlet-ajax.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\portlet-ajax.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\portlet-draggable.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\portlet-draggable.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\profile.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\profile.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\search.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\search.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\table-bootstrap.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\table-bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\table-datatables-ajax.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\table-datatables-ajax.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\table-datatables-buttons.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\table-datatables-buttons.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\table-datatables-colreorder.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\table-datatables-colreorder.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\table-datatables-editable.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\table-datatables-editable.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\table-datatables-fixedheader.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\table-datatables-fixedheader.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\table-datatables-managed.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\table-datatables-managed.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\table-datatables-responsive.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\table-datatables-responsive.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\table-datatables-rowreorder.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\table-datatables-rowreorder.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\table-datatables-scroller.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\table-datatables-scroller.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\timeline.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\timeline.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-alerts-api.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-alerts-api.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-blockui.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-blockui.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-bootbox.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-bootbox.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-bootstrap-growl.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-bootstrap-growl.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-buttons.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-buttons.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-confirmations.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-confirmations.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-datepaginator.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-datepaginator.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-extended-modals.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-extended-modals.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-general.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-general.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-idletimeout.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-idletimeout.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-modals.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-modals.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-nestable.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-nestable.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-notific8.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-notific8.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-session-timeout.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-session-timeout.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-sweetalert.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-sweetalert.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-toastr.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-toastr.min.js"
+    },
+    {
+      "Id": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\pages\\scripts\\ui-tree.min.js",
+      "PackagePath": "staticwebassets\\pages\\scripts\\ui-tree.min.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AdminPanel.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -2,6 +2,8 @@
 using System.Data.SqlClient;
 using System.Data;
 using AdminPanel.Areas.LOC_State.Models;
+using System.Collections.Generic;
+using AdminPanel.Areas.LOC_Country.Models;
 
 namespace AdminPanel.Areas.LOC_State.Controllers
 {
@@ -93,7 +95,29 @@ namespace AdminPanel.Areas.LOC_State.Controllers
         #region Add
         public IActionResult LOC_StateAdd(int StateID = 0)
         {
+            #region ComboBox
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
+            SqlConnection connection1 = new SqlConnection(connectionString);
+            connection1.Open();
+            SqlCommand command1 = connection1.CreateCommand();
+            command1.CommandType = CommandType.StoredProcedure;
+            command1.CommandText = "PR_Country_ComboBox";
+            SqlDataReader reader1 = command1.ExecuteReader();
+            DataTable table1 = new DataTable();
+            table1.Load(reader1);
+            connection1.Close();
+
+            List<LOC_CountryDropDownModel> list = new List<LOC_CountryDropDownModel>();
+            foreach (DataRow row in table1.Rows)
+            {
+                LOC_CountryDropDownModel lOC_CountryDropDownModel = new LOC_CountryDropDownModel();
+                lOC_CountryDropDownModel.CountryID = Convert.ToInt32(row["CountryID"]);
+                lOC_CountryDropDownModel.CountryName = row["CountryName"].ToString();
+                list.Add(lOC_CountryDropDownModel);
+            }
+            ViewBag.CountryList = list;
+            #endregion
+            #region Add
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
@@ -106,11 +130,13 @@ namespace AdminPanel.Areas.LOC_State.Controllers
             LOC_StateModel lOC_StateModel = new LOC_StateModel();
             foreach (DataRow dataRow in table.Rows)
             {
-                lOC_StateModel.CountryID = Convert.ToInt32(dataRow["CountryID"]);
+                lOC_StateModel.StateID = Convert.ToInt32(dataRow["StateID"]);
                 lOC_StateModel.StateName = dataRow["StateName"].ToString();
                 lOC_StateModel.StateCode = dataRow["StateCode"].ToString();
+                lOC_StateModel.CountryID = Convert.ToInt32(dataRow["CountryID"]);
             }
             return View("LOC_StateAddEdit", lOC_StateModel);
+            #endregion
         }
         #endregion
 

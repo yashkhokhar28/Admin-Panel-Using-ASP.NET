@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
 using System.Data;
+using AdminPanel.Areas.LOC_Country.Models;
+using AdminPanel.Areas.LOC_State.Models;
 
 namespace AdminPanel.Areas.LOC_City.Controllers
 {
@@ -96,7 +98,50 @@ namespace AdminPanel.Areas.LOC_City.Controllers
         #region Add
         public IActionResult LOC_CityAdd(int CityID = 0)
         {
+            #region State ComboBox
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
+            SqlConnection connection1 = new SqlConnection(connectionString);
+            connection1.Open();
+            SqlCommand command1 = connection1.CreateCommand();
+            command1.CommandType = CommandType.StoredProcedure;
+            command1.CommandText = "PR_State_ComboBox";
+            SqlDataReader reader1 = command1.ExecuteReader();
+            DataTable table1 = new DataTable();
+            table1.Load(reader1);
+            connection1.Close();
+
+            List<LOC_StateDropDownModel> list = new List<LOC_StateDropDownModel>();
+            foreach (DataRow row in table1.Rows)
+            {
+                LOC_StateDropDownModel lOC_StateDropDownModel = new LOC_StateDropDownModel();
+                lOC_StateDropDownModel.StateID = Convert.ToInt32(row["StateID"]);
+                lOC_StateDropDownModel.StateName = row["StateName"].ToString();
+                list.Add(lOC_StateDropDownModel);
+            }
+            ViewBag.StateList = list;
+            #endregion
+            #region Country ComboBox
+            SqlConnection connection2 = new SqlConnection(connectionString);
+            connection2.Open();
+            SqlCommand command2 = connection2.CreateCommand();
+            command2.CommandType = CommandType.StoredProcedure;
+            command2.CommandText = "PR_Country_ComboBox";
+            SqlDataReader reader2 = command2.ExecuteReader();
+            DataTable table2 = new DataTable();
+            table2.Load(reader2);
+            connection2.Close();
+
+            List<LOC_CountryDropDownModel> list2 = new List<LOC_CountryDropDownModel>();
+            foreach (DataRow row in table2.Rows)
+            {
+                LOC_CountryDropDownModel lOC_CountryDropDownModel = new LOC_CountryDropDownModel();
+                lOC_CountryDropDownModel.CountryID = Convert.ToInt32(row["CountryID"]);
+                lOC_CountryDropDownModel.CountryName = row["CountryName"].ToString();
+                list2.Add(lOC_CountryDropDownModel);
+            }
+            ViewBag.CountryList = list2;
+            #endregion
+            #region Add
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
@@ -115,6 +160,7 @@ namespace AdminPanel.Areas.LOC_City.Controllers
                 lOC_CityModel.CountryID = Convert.ToInt32(dataRow["CountryID"]);
             }
             return View("LOC_CityAddEdit", lOC_CityModel);
+            #endregion
         }
         #endregion
     }
