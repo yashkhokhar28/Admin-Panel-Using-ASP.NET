@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\.Net Core Workshop\Projects\AdminPanel\Admin-Panel-Using-ASP.NET
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/LOC_City/Views/LOC_City/LOC_CityAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NpdHlcVmlld3NcTE9DX0NpdHlcTE9DX0NpdHlBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/LOC_City/Views/LOC_City/LOC_CityList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NpdHlcVmlld3NcTE9DX0NpdHlcTE9DX0NpdHlMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/LOC_City/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NpdHlcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/LOC_City/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NpdHlcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/LOC_Country/Views/LOC_Country/LOC_CountryAddEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NvdW50cnlcVmlld3NcTE9DX0NvdW50cnlcTE9DX0NvdW50cnlBZGRFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
