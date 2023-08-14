@@ -1,5 +1,46 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "City Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+@model AdminPanel.Areas.LOC_City.Models.LOC_CityModel
+
+
+@{
+    Console.WriteLine();
+}
+
+<div>
+    <form method="post" asp-controller="LOC_City" asp-action="LOC_CitySave" asp-area="LOC_City">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group">
+            <label>City Name</label>
+            <input type="text" value="@Model.CityName" asp-for="CityName" />
+            <span asp-validation-for="CityName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>City Code</label>
+            <input type="text" value="@Model.CityCode" asp-for="CityCode" />
+            <span asp-validation-for="CityCode" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>State ID ID</label>
+            <input type="text" value="@Model.StateID" asp-for="StateID" />
+            <span asp-validation-for="CityID" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Country ID</label>
+            <input type="text" value="@Model.CountryID" asp-for="CountryID" />
+            <span asp-validation-for="CityID" class="text-danger"></span>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <input type="hidden" name="CityID" value="@Model.CityID" />
+            <input type="submit" value="Save" class="submit" />
+        </div>
+    </form>
+</div>
+
+
