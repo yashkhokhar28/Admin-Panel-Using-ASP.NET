@@ -12,10 +12,7 @@
     <Folder Include="Areas\LOC_City\Models\" />
     <Folder Include="Areas\LOC_City\Views\" />
     <Folder Include="Areas\LOC_Country\Data\" />
-    <Folder Include="Areas\LOC_State\Controllers\" />
     <Folder Include="Areas\LOC_State\Data\" />
-    <Folder Include="Areas\LOC_State\Models\" />
-    <Folder Include="Areas\LOC_State\Views\" />
   </ItemGroup>
 
   <ItemGroup>

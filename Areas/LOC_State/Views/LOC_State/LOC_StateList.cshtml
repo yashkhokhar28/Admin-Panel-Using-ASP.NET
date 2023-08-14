@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "State List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using System.Data
+@model DataTable
+<table class="table table-striped">
+    <thead>
+@*        <tr>
+            <a class="btn btn-outline-primary" asp-action="LOC_StateAdd" asp-area="LOC_State" asp-controller="LOC_State">Add</a>
+        </tr>*@
+        <tr>
+            <th scope="col">State ID</th>
+            <th scope="col">State Name</th>
+            <th scope="col">State Code</th>
+            <th scope="col">Country ID</th>
+            <th scope="col">Country Name</th>
+            <th scope="col">Created</th>
+            <th scope="col">Modified</th>
+            <th scope="col" colspan="2">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (DataRow dataRow in Model.Rows)
+        {
+            <tr>
+                <td>@dataRow["StateID"]</td>
+                <td>@dataRow["StateName"]</td>
+                <td>@dataRow["StateCode"]</td>
+                <th scope="col">@dataRow["CountryID"]</th>
+                <th scope="col">@dataRow["CountryName"]</th>
+                <td>@Convert.ToDateTime(dataRow["Created"]).ToString("dd-MM-yyyy")</td>
+                <td>@Convert.ToDateTime(dataRow["Modified"]).ToString("dd-MM-yyyy")</td>
+                <td>
+                    <form method="post" asp-area="LOC_State" asp-controller="LOC_State" asp-action="LOC_StateDelete">
+                        <input type="hidden" value="@Convert.ToInt32(dataRow["StateID"])" name="StateID">
+                        <button type="submit" class="btn btn-outline-danger" value="Delete">Delete</button>
+                    </form>
+                </td>
+                <td>
+                    <form method="post" asp-area="LOC_State" asp-controller="LOC_State" asp-action="LOC_StateAdd">
+                        <input type="hidden" value="@Convert.ToInt32(dataRow["StateID"])" name="StateID">
+                        <button type="submit" class="btn btn-outline-success" value="Edit">Edit</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

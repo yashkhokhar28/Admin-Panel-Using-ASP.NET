@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "State Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model AdminPanel.Areas.LOC_State.Models.LOC_StateModel
+
+<div>
+    <form method="post" asp-controller="LOC_State" asp-action="LOC_StateSave" asp-area="LOC_State">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group">
+            <label>State Name</label>
+            <input type="text" value="@Model.StateName" asp-for="StateName" />
+            <span asp-validation-for="StateName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>State Code</label>
+            <input type="text" value="@Model.StateCode" asp-for="StateCode" />
+            <span asp-validation-for="StateCode" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Country ID</label>
+            <input type="text" value="@Model.CountryID" asp-for="CountryID" />
+            <span asp-validation-for="CountryID" class="text-danger"></span>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <input type="hidden" name="StateID" value="@Model.StateID" />
+            <input type="submit" value="Save" class="submit" />
+        </div>
+    </form>
+</div>
+
+
