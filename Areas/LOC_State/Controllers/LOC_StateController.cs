@@ -81,7 +81,7 @@ namespace AdminPanel.Areas.LOC_State.Controllers
             else
             {
                 command.CommandText = "PR_State_UpdateByPK";
-                command.Parameters.AddWithValue("@CountryID", StateID);
+                command.Parameters.AddWithValue("@StateID", StateID);
             }
             command.Parameters.AddWithValue("@StateName", lOC_StateModel.StateName);
             command.Parameters.AddWithValue("@StateCode", lOC_StateModel.StateCode);
