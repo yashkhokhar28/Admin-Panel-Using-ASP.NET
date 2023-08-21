@@ -9,6 +9,8 @@
   <ItemGroup>
     <Folder Include="Areas\LOC_Country\Data\" />
     <Folder Include="Areas\LOC_State\Data\" />
+    <Folder Include="Areas\MST_Branch\Data\" />
+    <Folder Include="Areas\MST_Student\Data\" />
   </ItemGroup>
 
   <ItemGroup>

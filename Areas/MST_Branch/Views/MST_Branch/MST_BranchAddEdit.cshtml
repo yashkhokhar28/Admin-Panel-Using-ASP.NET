@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Branch Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model AdminPanel.Areas.MST_Branch.Models.MST_BranchModel
+
+<div>
+    <form method="post" asp-controller="MST_Branch" asp-action="MST_BranchSave" asp-area="MST_Branch">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Branch Name" value="@Model.BranchName" asp-for="BranchName">
+            <label for="floatingInput">Branch Name</label>
+            <span asp-validation-for="BranchName" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.BranchCode" asp-for="BranchCode" type="text" class="form-control" id="floatingPassword" placeholder="Branch Code" />
+            <label for="floatingInput">Branch Code</label>
+            <span asp-validation-for="BranchCode" class="text-danger"></span>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <input type="hidden" name="BranchID" value="@Model.BranchID" />
+            <button type="submit" value="Save" class="submit btn btn-outline-primary">Save</button>
+        </div>
+    </form>
+</div>
+
+

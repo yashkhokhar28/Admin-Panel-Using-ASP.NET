@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Student List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using System.Data
+@model DataTable
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <a class="btn btn-outline-primary"  asp-action="MST_StudentAdd" asp-area="MST_Student" asp-controller="MST_Student">Add Student</a>
+        </tr>
+        <tr>
+            <th scope="col">Student ID</th>
+            <th scope="col">Student Name</th>
+            <th scope="col">Student Mobile Number</th>
+            <th scope="col">Student Email</th>
+            <th scope="col">Student Father Mobile Number</th>
+            <th scope="col">Student Address</th>
+            <th scope="col">Student BirthDate</th>
+            <th scope="col">Student Age</th>
+            <th scope="col">IsActive</th>
+            <th scope="col">Student Gender</th>
+            <th scope="col">Student Password</th>
+            <th scope="col">Created</th>
+            <th scope="col">Modified</th>
+            <th scope="col">Branch ID</th>
+            <th scope="col">Branch Name</th>
+            <th scope="col">Branch Code</th>
+            <th scope="col">City ID</th>
+            <th scope="col">City Name</th>
+            <th scope="col">City Code</th>
+            <th scope="col">Country ID</th>
+            <th scope="col">Country Name</th>
+            <th scope="col">Country Code</th>
+            <th scope="col" colspan="2">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (DataRow dataRow in Model.Rows)
+        {
+            <tr>
+                <td>@dataRow["StudentID"]</td>
+                <td>@dataRow["StudentName"]</td>
+                <td>@dataRow["MobileNoStudent"]</td>
+                <td>@dataRow["Email"]</td>
+                <td>@dataRow["MobileNoFather"]</td>
+                <td>@dataRow["Address"]</td>
+                <td>@Convert.ToDateTime(dataRow["BirthDate"]).ToString("dd-MM-yyyy")</td>
+                <td>@dataRow["Age"]</td>
+                <td>@dataRow["IsActive"]</td>
+                <td>@dataRow["Gender"]</td>
+                <td>@dataRow["Password"]</td>
+                <td>@dataRow["BranchID"]</td>
+                <td>@dataRow["BranchName"]</td>
+                <td>@dataRow["BranchCode"]</td>
+                <td>@dataRow["CityID"]</td>
+                <td>@dataRow["CityName"]</td>
+                <td>@dataRow["CityCode"]</td>
+                <td>@dataRow["CountryID"]</td>
+                <td>@dataRow["CountryName"]</td>
+                <td>@dataRow["CountryCode"]</td>
+                <td>@Convert.ToDateTime(dataRow["Created"]).ToString("dd-MM-yyyy")</td>
+                <td>@Convert.ToDateTime(dataRow["Modified"]).ToString("dd-MM-yyyy")</td>
+                <td>
+                    <form method="post" asp-area="MST_Student" asp-controller="MST_Student" asp-action="MST_StudentDelete">
+                        <input type="hidden" value="@Convert.ToInt32(dataRow["StudentID"])" name="StudentID">
+                        <button type="submit" class="btn btn-outline-danger" value="Delete">Delete</button>
+                    </form>
+                </td>
+                <td>
+                    <form method="post" asp-area="MST_Student" asp-controller="MST_Student" asp-action="MST_StudentAdd">
+                        <input type="hidden" value="@Convert.ToInt32(dataRow["StudentID"])" name="StudentID">
+                        <button type="submit" class="btn btn-outline-success" value="Edit">Edit</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

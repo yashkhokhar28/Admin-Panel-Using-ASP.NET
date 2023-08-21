@@ -1,0 +1,89 @@
+﻿@{
+    ViewData["Title"] = "Student Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model AdminPanel.Areas.MST_Student.Models.MST_StudentModel
+
+<div>
+    <form method="post" asp-controller="MST_Student" asp-action="MST_StudentSave" asp-area="MST_Student">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Student Name" value="@Model.StudentName" asp-for="StudentName">
+            <label for="floatingInput">Student Name</label>
+            <span asp-validation-for="StudentName" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.MobileNoStudent" asp-for="MobileNoStudent" type="text" class="form-control" id="floatingPassword" placeholder="Student Mobile Number" />
+            <label for="floatingInput">Student Mobile Number</label>
+            <span asp-validation-for="MobileNoStudent" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.Email" asp-for="Email" type="text" class="form-control" id="floatingPassword" placeholder="Student Email" />
+            <label for="floatingInput">Student Email</label>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.MobileNoFather" asp-for="MobileNoFather" type="text" class="form-control" id="floatingPassword" placeholder="Student Father Mobile Number" />
+            <label for="floatingInput">Student Father Mobile Number</label>
+            <span asp-validation-for="MobileNoFather" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.Address" asp-for="Address" type="text" class="form-control" id="floatingPassword" placeholder="Student Address" />
+            <label for="floatingInput">Student Address</label>
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="datetime" value="@Model.BirthDate" asp-for="BirthDate" type="datetime" class="form-control" id="floatingPassword" placeholder="Student BirthDate" />
+            <label for="floatingInput">Student BirthDate</label>
+            <span asp-validation-for="BirthDate" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.Age" asp-for="Age" type="text" class="form-control" id="floatingPassword" placeholder="Student Age" />
+            <label for="floatingInput">Student Age</label>
+            <span asp-validation-for="Age" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.IsActive" asp-for="IsActive" type="text" class="form-control" id="floatingPassword" placeholder="IsActive" />
+            <label for="floatingInput">IsActive</label>
+            <span asp-validation-for="IsActive" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.Gender" asp-for="Gender" type="text" class="form-control" id="floatingPassword" placeholder="Student Gender" />
+            <label for="floatingInput">Student Gender</label>
+            <span asp-validation-for="Gender" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.Password" asp-for="Password" type="text" class="form-control" id="floatingPassword" placeholder="Student Password" />
+            <label for="floatingInput">Student Password</label>
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.BranchID" asp-for="BranchID" type="text" class="form-control" id="floatingPassword" placeholder="Branch ID" />
+            <label for="floatingInput">Branch ID</label>
+            <span asp-validation-for="BranchID" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.CityID" asp-for="CityID" type="text" class="form-control" id="floatingPassword" placeholder="City ID" />
+            <label for="floatingInput">City ID</label>
+            <span asp-validation-for="CityID" class="text-danger"></span>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <input type="hidden" name="StudentID" value="@Model.StudentID" />
+            <button type="submit" value="Save" class="submit btn btn-outline-primary">Save</button>
+        </div>
+    </form>
+</div>
+
+

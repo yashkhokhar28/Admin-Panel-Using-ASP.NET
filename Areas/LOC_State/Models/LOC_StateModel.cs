@@ -5,7 +5,6 @@ namespace AdminPanel.Areas.LOC_State.Models
     public class LOC_StateModel
     {
         public int? StateID { get; set; }
-
         [Required]
         public string? StateName { get; set; }
         [Required]

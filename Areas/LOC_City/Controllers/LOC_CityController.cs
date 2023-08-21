@@ -53,21 +53,21 @@ namespace AdminPanel.Areas.LOC_City.Controllers
         #endregion
 
         #region Save
-        public IActionResult LOC_CitySave(LOC_CityModel lOC_CityModel, int CityID = 0)
+        public IActionResult LOC_CitySave(LOC_CityModel lOC_CityModel)
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
-            if (CityID == 0)
+            if (lOC_CityModel.CityID == 0)
             {
                 command.CommandText = "PR_City_Insert";
             }
             else
             {
                 command.CommandText = "PR_City_UpdateByPK";
-                command.Parameters.AddWithValue("@CityID", CityID);
+                command.Parameters.AddWithValue("@CityID", lOC_CityModel.CityID);
             }
             command.Parameters.AddWithValue("@CityName", lOC_CityModel.CityName);
             command.Parameters.AddWithValue("@CityCode", lOC_CityModel.CityCode);
@@ -120,6 +120,8 @@ namespace AdminPanel.Areas.LOC_City.Controllers
             }
             ViewBag.StateList = list;
             #endregion
+
+
             #region Country ComboBox
             SqlConnection connection2 = new SqlConnection(connectionString);
             connection2.Open();
@@ -154,6 +156,7 @@ namespace AdminPanel.Areas.LOC_City.Controllers
             LOC_CityModel lOC_CityModel = new LOC_CityModel();
             foreach (DataRow dataRow in table.Rows)
             {
+                lOC_CityModel.CityID = Convert.ToInt32(dataRow["CityID"]);
                 lOC_CityModel.CityName = dataRow["CityName"].ToString();
                 lOC_CityModel.CityCode = dataRow["CityCode"].ToString();
                 lOC_CityModel.StateID = Convert.ToInt32(dataRow["StateID"]);
