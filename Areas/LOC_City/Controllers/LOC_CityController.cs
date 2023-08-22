@@ -53,14 +53,14 @@ namespace AdminPanel.Areas.LOC_City.Controllers
         #endregion
 
         #region Save
-        public IActionResult LOC_CitySave(LOC_CityModel lOC_CityModel)
+        public IActionResult LOC_CitySave(LOC_CityModel lOC_CityModel,int CityID = 0)
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
-            if (lOC_CityModel.CityID == 0)
+            if (CityID == 0)
             {
                 command.CommandText = "PR_City_Insert";
             }

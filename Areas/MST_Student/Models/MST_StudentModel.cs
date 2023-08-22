@@ -33,4 +33,18 @@
         public int CityID { get; set; }
 
     }
+
+    public class LOC_CityDropDownModel
+    {
+        public int? CityID { get; set;}
+
+        public string? CityName { get; set; }
+    }
+
+    public class MST_BranchDropDownModel
+    {
+        public int? BranchID { get; set; }
+
+        public string? BranchName { get; set; }
+    }
 }

@@ -67,17 +67,17 @@
             <label for="floatingInput">Student Password</label>
             <span asp-validation-for="Password" class="text-danger"></span>
         </div>
-
-        <div class="form-floating mb-3">
-            <input type="text" value="@Model.BranchID" asp-for="BranchID" type="text" class="form-control" id="floatingPassword" placeholder="Branch ID" />
-            <label for="floatingInput">Branch ID</label>
-            <span asp-validation-for="BranchID" class="text-danger"></span>
+        <div class="form-group">
+            <label>City Name</label>
+            <select class="form-control" asp-for="CityID" asp-items="@(new SelectList(ViewBag.CityList,"CityID","CityName"))">
+                <option value="">Select City</option>
+            </select>
         </div>
-
-        <div class="form-floating mb-3">
-            <input type="text" value="@Model.CityID" asp-for="CityID" type="text" class="form-control" id="floatingPassword" placeholder="City ID" />
-            <label for="floatingInput">City ID</label>
-            <span asp-validation-for="CityID" class="text-danger"></span>
+        <div class="form-group">
+            <label>Branch Name</label>
+            <select class="form-control" asp-for="BranchID" asp-items="@(new SelectList(ViewBag.BranchList,"BranchID","BranchName"))">
+                <option value="">Select Branch</option>
+            </select>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
             <input type="hidden" name="StudentID" value="@Model.StudentID" />
