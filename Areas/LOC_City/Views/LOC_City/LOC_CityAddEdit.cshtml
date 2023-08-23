@@ -21,7 +21,7 @@
         </div>
         <div class="form-group">
             <label>Country Name</label>
-            <select class="form-control" asp-for="CountryID" asp-items="@(new SelectList(ViewBag.CountryList,"CountryID","CountryName"))" onchange="stateChange()">
+            <select class="form-control" asp-for="CountryID" asp-items="@(new SelectList(ViewBag.CountryList,"CountryID","CountryName"))">
                 <option value="">Select Country</option>
             </select>
         </div>
@@ -38,7 +38,7 @@
     </form>
 </div>
 
-@section Scripts{
+@* @section Scripts{
     <script>
         function stateChange() {
             console.log("h");
@@ -71,5 +71,5 @@
             }
         }
     </script>
-}
+} *@
 
