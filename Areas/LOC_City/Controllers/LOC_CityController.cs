@@ -99,7 +99,7 @@ namespace AdminPanel.Areas.LOC_City.Controllers
         }
         #endregion
 
-        #region Add
+        #region Add - Edit
         public IActionResult LOC_CityAdd(int CityID = 0)
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
@@ -125,7 +125,7 @@ namespace AdminPanel.Areas.LOC_City.Controllers
                 ViewBag.CountryList = list2;
             #endregion
 
-            #region State ComboBox
+                #region State ComboBox
             SqlConnection connection1 = new SqlConnection(connectionString);
             connection1.Open();
             SqlCommand command1 = connection2.CreateCommand();
