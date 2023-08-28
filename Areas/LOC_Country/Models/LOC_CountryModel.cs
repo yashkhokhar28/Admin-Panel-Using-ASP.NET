@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace AdminPanel.Areas.LOC_Country.Models
 {
@@ -7,8 +8,11 @@ namespace AdminPanel.Areas.LOC_Country.Models
         public int? CountryID { get; set; }
 
         [Required]
+        [DisplayName("Country Name")]
         public string? CountryName { get; set; }
+
         [Required]
+        [DisplayName("Country Code")]
         public string? CountryCode { get; set; }
         public DateTime Created { get; set; }
         public DateTime Modified { get; set; }
@@ -16,9 +20,7 @@ namespace AdminPanel.Areas.LOC_Country.Models
 
     public class LOC_CountryDropDownModel
     {
-        public int? CountryID { get; set; }
-
-        [Required]
+        public int CountryID { get; set; }
         public string? CountryName { get; set; }
     }
 }

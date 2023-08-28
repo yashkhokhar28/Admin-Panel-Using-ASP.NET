@@ -36,10 +36,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NvdW50cnlcVmlld3NcTE9DX0NvdW50cnlcTE9DX0NvdW50cnlBZGRFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/LOC_Country/Views/LOC_Country/LOC_CountryByID.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NvdW50cnlcVmlld3NcTE9DX0NvdW50cnlcTE9DX0NvdW50cnlCeUlELmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/LOC_Country/Views/LOC_Country/LOC_CountryList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NvdW50cnlcVmlld3NcTE9DX0NvdW50cnlcTE9DX0NvdW50cnlMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace AdminPanel.Areas.LOC_City.Models
 {
@@ -7,9 +8,11 @@ namespace AdminPanel.Areas.LOC_City.Models
         public int? CityID { get; set; }
 
         [Required]
-        public string CityName { get; set; }
+        [DisplayName("City Name")]
+        public string? CityName { get; set; }
         [Required]
-        public string CityCode { get; set; }
+        [DisplayName("City Code")]
+        public string? CityCode { get; set; }
         public int StateID { get; set; }
         public int CountryID { get; set; }
 

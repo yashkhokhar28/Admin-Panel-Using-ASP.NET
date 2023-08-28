@@ -21,15 +21,17 @@ namespace AdminPanel.Areas.LOC_City.Controllers
         }
         #endregion
 
-        #region SelectAll
-        public IActionResult LOC_CityList()
+        #region City List
+        public IActionResult LOC_CityList(string CityData = "")
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "PR_City_SelectAll";
+            command.CommandText = "PR_City_SelectByCityName";
+            if (CityData != "")
+                command.Parameters.AddWithValue("@data", CityData);
             SqlDataReader reader = command.ExecuteReader();
             DataTable table = new DataTable();
             table.Load(reader);
@@ -38,68 +40,7 @@ namespace AdminPanel.Areas.LOC_City.Controllers
         }
         #endregion
 
-        #region SelectByID
-        public IActionResult LOC_CityListByID(int CityID)
-        {
-            string connectionString = this.Configuration.GetConnectionString("ConnectionString");
-            SqlConnection connection = new SqlConnection(connectionString);
-            connection.Open();
-            SqlCommand command = connection.CreateCommand();
-            command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "PR_City_SelectByPK";
-            command.Parameters.AddWithValue("CityID", CityID);
-            SqlDataReader reader = command.ExecuteReader();
-            DataTable table = new DataTable();
-            table.Load(reader);
-            connection.Close();
-            return View(table);
-        }
-        #endregion
-
-        #region Save
-        public IActionResult LOC_CitySave(LOC_CityModel lOC_CityModel, int CityID = 0)
-        {
-            string connectionString = this.Configuration.GetConnectionString("ConnectionString");
-            SqlConnection connection = new SqlConnection(connectionString);
-            connection.Open();
-            SqlCommand command = connection.CreateCommand();
-            command.CommandType = CommandType.StoredProcedure;
-            if (CityID == 0)
-            {
-                command.CommandText = "PR_City_Insert";
-            }
-            else
-            {
-                command.CommandText = "PR_City_UpdateByPK";
-                command.Parameters.AddWithValue("@CityID", lOC_CityModel.CityID);
-            }
-            command.Parameters.AddWithValue("@CityName", lOC_CityModel.CityName);
-            command.Parameters.AddWithValue("@CityCode", lOC_CityModel.CityCode);
-            command.Parameters.AddWithValue("@StateID", lOC_CityModel.StateID);
-            command.Parameters.AddWithValue("@CountryID", lOC_CityModel.CountryID);
-            command.ExecuteNonQuery();
-            connection.Close();
-            return RedirectToAction("LOC_CityList");
-        }
-        #endregion
-
-        #region Delete
-        public IActionResult LOC_CityDelete(int CityID)
-        {
-            string connectionString = this.Configuration.GetConnectionString("ConnectionString");
-            SqlConnection connection = new SqlConnection(connectionString);
-            connection.Open();
-            SqlCommand command = connection.CreateCommand();
-            command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "PR_City_DeleteByPK";
-            command.Parameters.AddWithValue("@CityID", CityID);
-            command.ExecuteNonQuery();
-            connection.Close();
-            return RedirectToAction("LOC_CityList");
-        }
-        #endregion
-
-        #region Add - Edit
+        #region Add
         public IActionResult LOC_CityAdd(int CityID = 0)
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
@@ -125,7 +66,7 @@ namespace AdminPanel.Areas.LOC_City.Controllers
             ViewBag.CountryList = list2;
             #endregion
 
-
+            #region Add
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
@@ -149,6 +90,53 @@ namespace AdminPanel.Areas.LOC_City.Controllers
 
             return View("LOC_CityAddEdit", lOC_CityModel);
 
+            #endregion
+        }
+        #endregion
+
+        #region Insert
+        [HttpPost]
+        public IActionResult LOC_CitySave(LOC_CityModel lOC_CityModel, int CityID = 0)
+        {
+            string connectionString = this.Configuration.GetConnectionString("ConnectionString");
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            SqlCommand command = connection.CreateCommand();
+            command.CommandType = CommandType.StoredProcedure;
+            if (CityID == 0)
+            {
+                command.CommandText = "PR_City_Insert";
+                command.Parameters.AddWithValue("@CreationDate", DateTime.Now);
+            }
+            else
+            {
+                command.CommandText = "PR_City_UpdateByPK";
+                command.Parameters.AddWithValue("@CityID", lOC_CityModel.CityID);
+            }
+            command.Parameters.AddWithValue("@CityName", lOC_CityModel.CityName);
+            command.Parameters.AddWithValue("@CityCode", lOC_CityModel.CityCode);
+            command.Parameters.AddWithValue("@StateID", lOC_CityModel.StateID);
+            command.Parameters.AddWithValue("@CountryID", lOC_CityModel.CountryID);
+            command.Parameters.AddWithValue("@Modified", DateTime.Now);
+            command.ExecuteNonQuery();
+            connection.Close();
+            return RedirectToAction("LOC_CityList");
+        }
+        #endregion
+
+        #region Delete
+        public IActionResult LOC_CityDelete(int CityID)
+        {
+            string connectionString = this.Configuration.GetConnectionString("ConnectionString");
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            SqlCommand command = connection.CreateCommand();
+            command.CommandType = CommandType.StoredProcedure;
+            command.CommandText = "PR_City_DeleteByPK";
+            command.Parameters.AddWithValue("@CityID", CityID);
+            command.ExecuteNonQuery();
+            connection.Close();
+            return RedirectToAction("LOC_CityList");
         }
         #endregion
 
@@ -160,7 +148,7 @@ namespace AdminPanel.Areas.LOC_City.Controllers
         }
         #endregion
 
-
+        #region FillDropDown
         public List<LOC_StateDropDownModel> FillStateByCountry(int CountryID)
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
@@ -183,8 +171,8 @@ namespace AdminPanel.Areas.LOC_City.Controllers
                 lOC_StateDropDownModel.StateName = dataRow["StateName"].ToString();
                 list.Add(lOC_StateDropDownModel);
             }
-
             return list;
+            #endregion
         }
     }
 }

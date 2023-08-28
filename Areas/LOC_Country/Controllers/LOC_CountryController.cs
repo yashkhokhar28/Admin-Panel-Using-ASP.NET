@@ -10,23 +10,26 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
     [Route("LOC_Country/[controller]/[action]")]
     public class LOC_CountryController : Controller
     {
-
+        #region Configration
         private IConfiguration Configuration;
 
         public LOC_CountryController(IConfiguration _configuration)
         {
             Configuration = _configuration;
         }
+        #endregion
 
-        #region SelectAll
-        public IActionResult LOC_CountryList()
+        #region Country List
+        public IActionResult LOC_CountryList(string CountryData="")
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "PR_Country_SelectAll";
+            command.CommandText = "PR_Country_SelectByCountryName";
+            if(CountryData != "")
+            command.Parameters.AddWithValue("@data", CountryData);
             SqlDataReader reader = command.ExecuteReader();
             DataTable table = new DataTable();
             table.Load(reader);
@@ -35,25 +38,36 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
         }
         #endregion
 
-        #region SelectByID
-        public IActionResult LOC_CountryListByID(int CountryID)
+        #region Add
+        public IActionResult LOC_CountryAdd(int CountryID = 0)
         {
-            string connectionString = this.Configuration.GetConnectionString("ConnectionString");
-            SqlConnection connection = new SqlConnection(connectionString);
-            connection.Open();
-            SqlCommand command = connection.CreateCommand();
-            command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "PR_Country_SelectByPK";
-            command.Parameters.AddWithValue("CountryID", CountryID);
-            SqlDataReader reader = command.ExecuteReader();
-            DataTable table = new DataTable();
-            table.Load(reader);
-            connection.Close();
-            return View(table);
+            if (CountryID != 0)
+            {
+                string connectionString = this.Configuration.GetConnectionString("ConnectionString");
+                SqlConnection connection = new SqlConnection(connectionString);
+                connection.Open();
+                SqlCommand command = connection.CreateCommand();
+                command.CommandType = CommandType.StoredProcedure;
+                command.CommandText = "PR_Country_SelectByPK";
+                command.Parameters.AddWithValue("@CountryID", CountryID);
+                SqlDataReader reader = command.ExecuteReader();
+                DataTable table = new DataTable();
+                table.Load(reader);
+                LOC_CountryModel lOC_CountryModel = new LOC_CountryModel();
+                foreach (DataRow dataRow in table.Rows)
+                {
+                    lOC_CountryModel.CountryID = Convert.ToInt32(dataRow["CountryID"]);
+                    lOC_CountryModel.CountryName = dataRow["CountryName"].ToString();
+                    lOC_CountryModel.CountryCode = dataRow["CountryCode"].ToString();
+                }
+                return View("LOC_CountryAddEdit", lOC_CountryModel);
+            }
+            return View("LOC_CountryAddEdit");
         }
         #endregion
 
-        #region Save
+        #region Insert
+        [HttpPost]
         public IActionResult LOC_CountrySave(LOC_CountryModel lOC_CountryModel,int CountryID = 0)
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
@@ -64,6 +78,7 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
             if (CountryID == 0)
             {
                 command.CommandText = "PR_Country_Insert";
+                command.Parameters.AddWithValue("@Created", DateTime.Now);
             }
             else
             {
@@ -72,6 +87,7 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
             }
             command.Parameters.AddWithValue("@CountryName", lOC_CountryModel.CountryName);
             command.Parameters.AddWithValue("@CountryCode", lOC_CountryModel.CountryCode);
+            command.Parameters.AddWithValue("@Modified", DateTime.Now);
             command.ExecuteNonQuery();
             connection.Close();
             return RedirectToAction("LOC_CountryList");
@@ -93,29 +109,6 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
             return RedirectToAction("LOC_CountryList");
         }
         #endregion
-
-        #region Add
-        public IActionResult LOC_CountryAdd(int CountryID = 0)
-        {
-            string connectionString = this.Configuration.GetConnectionString("ConnectionString");
-            SqlConnection connection = new SqlConnection(connectionString);
-            connection.Open();
-            SqlCommand command = connection.CreateCommand();
-            command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "PR_Country_SelectByPK";
-            command.Parameters.AddWithValue("@CountryID", CountryID);
-            SqlDataReader reader = command.ExecuteReader();
-            DataTable table = new DataTable();
-            table.Load(reader);
-            LOC_CountryModel lOC_CountryModel = new LOC_CountryModel();
-            foreach (DataRow dataRow in table.Rows)
-            {
-                lOC_CountryModel.CountryID = Convert.ToInt32(dataRow["CountryID"]);
-                lOC_CountryModel.CountryName = dataRow["CountryName"].ToString();
-                lOC_CountryModel.CountryCode = dataRow["CountryCode"].ToString();
-            }
-            return View("LOC_CountryAddEdit",lOC_CountryModel);
-        }
-        #endregion
+  
     }
 }
