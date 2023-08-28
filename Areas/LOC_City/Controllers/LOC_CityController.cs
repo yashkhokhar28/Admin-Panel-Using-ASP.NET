@@ -148,6 +148,11 @@ namespace AdminPanel.Areas.LOC_City.Controllers
                 lOC_CityModel.StateID = Convert.ToInt32(dataRow["StateID"]);
                 lOC_CityModel.CountryID = Convert.ToInt32(dataRow["CountryID"]);
             }
+
+            //Call state select by country pr
+
+            ViewBag.StateList = FillStateByCountry(lOC_CityModel.CountryID);
+
             return View("LOC_CityAddEdit", lOC_CityModel);
             
         }
@@ -155,6 +160,14 @@ namespace AdminPanel.Areas.LOC_City.Controllers
 
         #region DropDownByCountry
         public IActionResult DropDownByCountry(int CountryID)
+        {            
+            var vModel = FillStateByCountry(CountryID);
+            return Json(vModel);
+        }
+        #endregion
+
+
+        public List<LOC_StateDropDownModel> FillStateByCountry(int CountryID)
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             DataTable table = new DataTable();
@@ -171,14 +184,13 @@ namespace AdminPanel.Areas.LOC_City.Controllers
             List<LOC_StateDropDownModel> list = new List<LOC_StateDropDownModel>();
             foreach (DataRow dataRow in table.Rows)
             {
-                LOC_StateDropDownModel lOC_StateDropDownModel  = new LOC_StateDropDownModel();
+                LOC_StateDropDownModel lOC_StateDropDownModel = new LOC_StateDropDownModel();
                 lOC_StateDropDownModel.StateID = Convert.ToInt32(dataRow["StateID"]);
                 lOC_StateDropDownModel.StateName = dataRow["StateName"].ToString();
                 list.Add(lOC_StateDropDownModel);
             }
-            var vModel = list;
-            return Json(vModel);
+
+            return list;
         }
-        #endregion
     }
 }
