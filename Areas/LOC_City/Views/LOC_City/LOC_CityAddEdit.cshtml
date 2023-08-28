@@ -8,32 +8,32 @@
 <div>
     <form method="post" asp-controller="LOC_City" asp-action="LOC_CitySave" asp-area="LOC_City">
         <div asp-validation-summary="All" class="text-danger"></div>
-        <div class="form-group">
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.CityName" asp-for="CityName" class="form-control" id="floatingInput" placeholder="State Name" />
             <label>City Name</label>
-            <input type="text" value="@Model.CityName" asp-for="CityName" />
             <span asp-validation-for="CityName" class="text-danger"></span>
         </div>
 
-        <div class="form-group">
+        <div class="form-floating mb-3">
+            <input type="text" value="@Model.CityCode" asp-for="CityCode" class="form-control" id="floatingInput" placeholder="State Name" />
             <label>City Code</label>
-            <input type="text" value="@Model.CityCode" asp-for="CityCode" />
             <span asp-validation-for="CityCode" class="text-danger"></span>
         </div>
-        <div class="form-group">
-            <label>Country Name</label>
+        <div class="form-group dropdown mb-3">
+            <label class="p-2">Country Name</label>
             <select class="form-control" asp-for="CountryID" asp-items="@(new SelectList(ViewBag.CountryList,"CountryID","CountryName"))" onchange="stateChange();">
                 <option value="">Select Country</option>
             </select>
         </div>
-        <div class="form-group">
-            <label>State Name</label>
+        <div class="form-group dropdown mb-3">
+            <label class="p-2">State Name</label>
             <select class="form-control" asp-for="StateID" asp-items="@(new SelectList(ViewBag.StateList,"StateID","StateName"))">
                 <option value="">Select State</option>
             </select>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
             <input type="hidden" name="CityID" value="@Model.CityID" />
-            <input type="submit" value="Save" class="submit" />
+            <input type="submit" value="Save" class="submit btn btn-outline-primary" />
         </div>
     </form>
 </div>
