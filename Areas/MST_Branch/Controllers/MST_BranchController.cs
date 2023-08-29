@@ -66,14 +66,14 @@ namespace AdminPanel.Areas.MST_Branch.Controllers
         #endregion
 
         #region Insert
-        public IActionResult MST_BranchSave(MST_BranchModel mST_BranchModel)
+        public IActionResult MST_BranchSave(MST_BranchModel mST_BranchModel,int BranchID = 0)
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
-            if (mST_BranchModel.BranchID == 0)
+            if (BranchID == 0)
             {
                 command.CommandText = "PR_Branch_Insert";
                 command.Parameters.AddWithValue("@Created",DateTime.Now);
@@ -81,7 +81,7 @@ namespace AdminPanel.Areas.MST_Branch.Controllers
             else
             {
                 command.CommandText = "PR_Branch_UpdateByPK";
-                command.Parameters.AddWithValue("@BranchID", mST_BranchModel.BranchID);
+                command.Parameters.AddWithValue("@BranchID", BranchID);
             }
             command.Parameters.AddWithValue("@BranchName", mST_BranchModel.BranchName);
             command.Parameters.AddWithValue("@BranchCode", mST_BranchModel.BranchCode);
