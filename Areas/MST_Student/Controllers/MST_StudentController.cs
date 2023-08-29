@@ -11,21 +11,27 @@ namespace AdminPanel.Areas.MST_Student.Controllers
     [Route("MST_Student/[controller]/[action]")]
     public class MST_StudentController : Controller
     {
+        #region Configration
         private IConfiguration Configuration;
 
         public MST_StudentController(IConfiguration _configuration)
         {
             Configuration = _configuration;
         }
-        #region SelectAll
-        public IActionResult MST_StudentList()
+        #endregion
+
+
+        #region StudentList
+        public IActionResult MST_StudentList(string StudentData = "")
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "PR_Student_SelectAll";
+            command.CommandText = "PR_SelectByStudent";
+            if (StudentData != "")
+                command.Parameters.AddWithValue("@data", StudentData);
             SqlDataReader reader = command.ExecuteReader();
             DataTable table = new DataTable();
             table.Load(reader);
@@ -133,7 +139,7 @@ namespace AdminPanel.Areas.MST_Student.Controllers
             }
             ViewBag.BranchList = list2;
             #endregion
-            
+
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();

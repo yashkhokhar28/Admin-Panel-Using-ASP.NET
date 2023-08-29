@@ -173,6 +173,7 @@ namespace AdminPanel.Areas.LOC_City.Controllers
             }
             return list;
             #endregion
+
         }
     }
 }
