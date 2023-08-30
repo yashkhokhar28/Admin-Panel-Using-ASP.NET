@@ -20,16 +20,14 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
         #endregion
 
         #region Country List
-        public IActionResult LOC_CountryList(string CountryData="")
+        public IActionResult LOC_CountryList()
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "PR_Country_SelectByCountryName";
-            if(CountryData != "")
-            command.Parameters.AddWithValue("@data", CountryData);
+            command.CommandText = "PR_Country_SelectAll";
             SqlDataReader reader = command.ExecuteReader();
             DataTable table = new DataTable();
             table.Load(reader);
@@ -68,7 +66,7 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
 
         #region Insert
         [HttpPost]
-        public IActionResult LOC_CountrySave(LOC_CountryModel lOC_CountryModel,int CountryID = 0)
+        public IActionResult LOC_CountrySave(LOC_CountryModel lOC_CountryModel, int CountryID = 0)
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
@@ -109,6 +107,25 @@ namespace AdminPanel.Areas.LOC_Country.Controllers
             return RedirectToAction("LOC_CountryList");
         }
         #endregion
-  
+
+        #region Filter
+        public IActionResult LOC_CountryFilter(string CountryData = "")
+        {
+            string connectionString = this.Configuration.GetConnectionString("ConnectionString");
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            SqlCommand command = connection.CreateCommand();
+            command.CommandType = CommandType.StoredProcedure;
+            command.CommandText = "PR_CountryFilter";
+            if (CountryData != "")
+                command.Parameters.AddWithValue("@CountryData", CountryData);
+            SqlDataReader reader = command.ExecuteReader();
+            DataTable dataTable = new DataTable();
+            dataTable.Load(reader);
+            ModelState.Clear();
+            return View("LOC_CountryList", dataTable);
+        }
+        #endregion
+
     }
 }

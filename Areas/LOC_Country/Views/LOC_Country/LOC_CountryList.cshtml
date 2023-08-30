@@ -32,13 +32,10 @@
     </div>
     <div class="portlet-body">
         <div class="pull-right">
-            <div id="sample_1_filter" class="dataTables_filter">
-                <input type="text" class="form-control input-sm input-small input-inline" id="sample_1" placeholder="jQuery">
-            </div>
         </div>
         <div class="pull-right">
-            <form asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryList">
-                <input name="CountryData" type="text" class="form-control input-sm input-small input-inline" placeholder="Database">
+            <form asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryFilter">
+                <input name="CountryData" type="text" class="form-control input-sm input-small input-inline" placeholder="Country Data">
             </form>
         </div>
         <table class="table table-striped table-bordered table-hover table-header-fixed dataTable">
@@ -78,15 +75,6 @@
 @section Scripts
     {
     <script>
-        $(document).ready(function () {
-            $("#sample_1").on("keyup", function () {
-                var value = $(this).val().toLowerCase();
-                $("#sample_2 tr").filter(function () {
-                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                });
-            });
-        });
-
         function fun1() {
             if (confirm("Are you sure you want to delete?")) {
                 return true;

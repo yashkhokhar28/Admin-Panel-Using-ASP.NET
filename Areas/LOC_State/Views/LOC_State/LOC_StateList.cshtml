@@ -1,10 +1,12 @@
 ﻿@{
     ViewData["Title"] = "State List";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    LOC_StateFilterModel lOC_StateFilterModel = new LOC_StateFilterModel();
 }
 
 @using System.Data
 @model DataTable
+@using AdminPanel.Areas.LOC_State.Models;
 
 
 <div class="page-bar">
@@ -33,16 +35,17 @@
         </div>
     </div>
     <div class="portlet-body">
-        <div class="pull-right">
-            <div id="sample_1_filter" class="dataTables_filter">
-                <input type="text" class="form-control input-sm input-small input-inline" id="sample_1" placeholder="jQuery">
-            </div>
+        <div class="col-md-3 pull-right">
+            <select class="form-control" asp-for="@lOC_StateFilterModel.CountryID" asp-items="@(new SelectList(ViewBag.CountryList,"CountryID","CountryName"))">
+                <option value="">Select Country</option>
+            </select>
+            <span asp-validation-for="@lOC_StateFilterModel.CountryID" class="text-danger"></span>
         </div>
-        <div class="pull-right">
-            <form asp-area="LOC_State" asp-controller="LOC_State" asp-action="LOC_StateList">
+        @* <div class="pull-right">
+            <form asp-area="LOC_State" asp-controller="LOC_State" asp-action="LOC_StateFilter">
                 <input name="StateData" type="text" class="form-control input-sm input-small input-inline" placeholder="Database">
             </form>
-        </div>
+        </div> *@
         <table class="table table-striped table-bordered table-hover table-header-fixed dataTable">
             <thead>
                 <tr>
@@ -54,7 +57,7 @@
                     <th class="text-center">Actions</th>
                 </tr>
             </thead>
-            <tbody id="sample_2">
+            <tbody>
                 @foreach (DataRow dataRow in Model.Rows)
                 {
                     <tr>
@@ -82,15 +85,6 @@
 @section Scripts
     {
     <script>
-        $(document).ready(function () {
-            $("#sample_1").on("keyup", function () {
-                var value = $(this).val().toLowerCase();
-                $("#sample_2 tr").filter(function () {
-                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                });
-            });
-        });
-
         function fun1() {
             if (confirm("Are you sure you want to delete?")) {
                 return true;
