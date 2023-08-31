@@ -20,20 +20,42 @@ namespace AdminPanel.Areas.LOC_State.Controllers
         #endregion
 
         #region State List
-        public IActionResult LOC_StateList(string StateData = "")
+        public IActionResult LOC_StateList(int CountryID = 0,string StateData = "")
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "PR_State_SelectByStateName";
-            if (StateData != "")
-                command.Parameters.AddWithValue("@data", StateData);
+            command.CommandText = "PR_StateFilter";
+            command.Parameters.AddWithValue("CountryID", CountryID);
+            command.Parameters.AddWithValue("@StateData", StateData);
             SqlDataReader reader = command.ExecuteReader();
             DataTable table = new DataTable();
             table.Load(reader);
             connection.Close();
+
+            #region  Country ComboBox
+            SqlConnection connection1 = new SqlConnection(connectionString);
+            connection1.Open();
+            SqlCommand command1 = connection1.CreateCommand();
+            command1.CommandType = CommandType.StoredProcedure;
+            command1.CommandText = "PR_Country_ComboBox";
+            SqlDataReader reader1 = command1.ExecuteReader();
+            DataTable table1 = new DataTable();
+            table1.Load(reader1);
+            connection1.Close();
+
+            List<LOC_CountryDropDownModel> list = new List<LOC_CountryDropDownModel>();
+            foreach (DataRow row in table1.Rows)
+            {
+                LOC_CountryDropDownModel lOC_CountryDropDownModel = new LOC_CountryDropDownModel();
+                lOC_CountryDropDownModel.CountryID = Convert.ToInt32(row["CountryID"]);
+                lOC_CountryDropDownModel.CountryName = row["CountryName"].ToString();
+                list.Add(lOC_CountryDropDownModel);
+            }
+            ViewBag.CountryList = list;
+            #endregion
             return View(table);
         }
         #endregion

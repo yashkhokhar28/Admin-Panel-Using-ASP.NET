@@ -1,11 +1,13 @@
 ﻿@{
     ViewData["Title"] = "State List";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    LOC_StateModel lOC_StateModel = new LOC_StateModel();
+
 }
 
 @using System.Data
 @model DataTable
-
+@using AdminPanel.Areas.LOC_State.Models;
 
 <div class="page-bar">
     <ul class="page-breadcrumb">
@@ -33,6 +35,12 @@
         </div>
     </div>
     <div class="portlet-body">
+        <div class="pull-right">
+            <select class="form-control" asp-for="@lOC_StateModel.CountryID" asp-items="@(new SelectList(ViewBag.CountryList,"CountryID","CountryName"))">
+                <option value="">Select Country</option>
+            </select>
+            <span asp-validation-for="@lOC_StateModel.CountryID" class="text-danger"></span>
+        </div>
         <div class="pull-right">
             <form asp-area="LOC_State" asp-controller="LOC_State" asp-action="LOC_StateList">
                 <input name="StateData" type="text" class="form-control input-sm input-small input-inline" placeholder="Database">
