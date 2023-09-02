@@ -20,22 +20,11 @@ namespace AdminPanel.Areas.LOC_State.Controllers
         #endregion
 
         #region State List
-        public IActionResult LOC_StateList(int CountryID = 0,string StateData = "")
+        public IActionResult LOC_StateList()
         {
-            string connectionString = this.Configuration.GetConnectionString("ConnectionString");
-            SqlConnection connection = new SqlConnection(connectionString);
-            connection.Open();
-            SqlCommand command = connection.CreateCommand();
-            command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "PR_StateFilter";
-            command.Parameters.AddWithValue("CountryID", CountryID);
-            command.Parameters.AddWithValue("@StateData", StateData);
-            SqlDataReader reader = command.ExecuteReader();
-            DataTable table = new DataTable();
-            table.Load(reader);
-            connection.Close();
 
             #region  Country ComboBox
+            string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             SqlConnection connection1 = new SqlConnection(connectionString);
             connection1.Open();
             SqlCommand command1 = connection1.CreateCommand();
@@ -56,6 +45,17 @@ namespace AdminPanel.Areas.LOC_State.Controllers
             }
             ViewBag.CountryList = list;
             #endregion
+
+            
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            SqlCommand command = connection.CreateCommand();
+            command.CommandType = CommandType.StoredProcedure;
+            command.CommandText = "PR_State_SelectAll";
+            SqlDataReader reader = command.ExecuteReader();
+            DataTable table = new DataTable();
+            table.Load(reader);
+            connection.Close();
             return View(table);
         }
         #endregion
@@ -155,6 +155,49 @@ namespace AdminPanel.Areas.LOC_State.Controllers
             command.ExecuteNonQuery();
             connection.Close();
             return RedirectToAction("LOC_StateList");
+        }
+        #endregion
+
+        #region Filter
+        public IActionResult LOC_StateFilter(LOC_StateFilterModel lOC_StateFilterModel)
+        {
+            string connectionString = this.Configuration.GetConnectionString("ConnectionString");
+            #region  Country ComboBox
+            SqlConnection connection1 = new SqlConnection(connectionString);
+            connection1.Open();
+            SqlCommand command1 = connection1.CreateCommand();
+            command1.CommandType = CommandType.StoredProcedure;
+            command1.CommandText = "PR_Country_ComboBox";
+            SqlDataReader reader1 = command1.ExecuteReader();
+            DataTable table1 = new DataTable();
+            table1.Load(reader1);
+            connection1.Close();
+
+            List<LOC_CountryModel> list = new List<LOC_CountryModel>();
+            foreach (DataRow row in table1.Rows)
+            {
+                LOC_CountryModel lOC_CountryModel = new LOC_CountryModel();
+                lOC_CountryModel.CountryID = Convert.ToInt32(row["CountryID"]);
+                lOC_CountryModel.CountryName = row["CountryName"].ToString();
+                list.Add(lOC_CountryModel);
+            }
+            ViewBag.CountryList = list;
+            #endregion
+
+            SqlConnection connection = new SqlConnection(connectionString);
+            DataTable table = new DataTable();
+            connection.Open();
+            SqlCommand command = connection.CreateCommand();
+            command.CommandType = CommandType.StoredProcedure;
+            command.CommandText = "PR_StateFilter";
+            command.Parameters.AddWithValue("@CountryID", lOC_StateFilterModel.CountryID);
+            command.Parameters.AddWithValue("@StateName", lOC_StateFilterModel.StateName);
+            command.Parameters.AddWithValue("@StateCode", lOC_StateFilterModel.StateCode);
+            SqlDataReader reader = command.ExecuteReader();
+            table.Load(reader);
+
+            ModelState.Clear();
+            return View("LOC_StateList", table);
         }
         #endregion
     }

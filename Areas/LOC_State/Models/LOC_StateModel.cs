@@ -22,4 +22,11 @@ namespace AdminPanel.Areas.LOC_State.Models
         public int? StateID { get; set; }
         public string? StateName { get; set; }
     }
+
+    public class LOC_StateFilterModel
+    {
+        public int? CountryID { get; set; }
+        public string? StateName { get; set; }
+        public string? StateCode { get; set; }
+    }
 }
