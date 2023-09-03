@@ -1,9 +1,12 @@
 ﻿@{
     ViewData["Title"] = "City List";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    LOC_CityFilterModel lOC_CityFilterModel = new LOC_CityFilterModel();
+
 }
 
 @using System.Data
+@using AdminPanel.Areas.LOC_City.Models;
 @model DataTable
 
 
@@ -32,73 +35,105 @@
             </div>
         </div>
     </div>
-    <div class="portlet-body">
-        <div class="pull-right">
-            <div id="sample_1_filter" class="dataTables_filter">
-                <input type="text" class="form-control input-sm input-small input-inline" id="sample_1" placeholder="jQuery">
+    <form>
+        <div class="portlet-body">
+            <div class="pull-right">
+                <select class="form-control" asp-for="@lOC_CityFilterModel.CountryID" asp-items="@(new SelectList(ViewBag.CountryList,"CountryID","CountryName"))" onchange="stateChange();">
+                    <option value="">Select Country</option>
+                </select>
+                <select class="form-control" asp-for="@lOC_CityFilterModel.StateID" asp-items="@(new SelectList(ViewBag.StateList,"StateID","StateName"))">
+                    <option value="">Select State</option>
+                </select>
+                <span asp-validation-for="@lOC_CityFilterModel.CountryID" class="text-danger"></span>
+                <input type="text" class="form-control input-sm input-small input-inline" placeholder="CityName" asp-for="@lOC_CityFilterModel.CityName">
+                <input type="text" class="form-control input-sm input-small input-inline" placeholder="CityCode" asp-for="@lOC_CityFilterModel.CityCode">
+            </div>
+            <div class="actions">
+                <div class="btn-group btn-group-devided">
+                    <button type="submit" asp-area="LOC_City" asp-controller="LOC_City" asp-action="LOC_CityFilter" class="btn green btn-rounded"><i class="fa fa-plus"></i>&nbsp;Search</button>
+                </div>
+                <div class="btn-group btn-group-devided">
+                    <button type="submit" runat="server" OnClientClick="this.form.reset();return false;" class="btn green btn-rounded"><i class="fa fa-plus"></i>&nbsp;Clear</button>
+                </div>
             </div>
         </div>
-        <div class="pull-right">
-            <form asp-area="LOC_City" asp-controller="LOC_City" asp-action="LOC_CityList">
-                <input name="CityData" type="text" class="form-control input-sm input-small input-inline" placeholder="Database">
-            </form>
-        </div>
-        <table class="table table-striped table-bordered table-hover table-header-fixed dataTable">
-            <thead>
+    </form>
+    <table class="table table-striped table-bordered table-hover table-header-fixed dataTable">
+        <thead>
+            <tr>
+                <th scope="col">City Name</th>
+                <th scope="col">City Code</th>
+                <th scope="col">Country Name</th>
+                <th scope="col">State Name</th>
+                <th class="text-center">Created</th>
+                <th class="text-center">Modified</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody id="sample_2">
+            @foreach (DataRow dataRow in Model.Rows)
+            {
                 <tr>
-                    <th scope="col">City Name</th>
-                    <th scope="col">City Code</th>
-                    <th scope="col">Country Name</th>
-                    <th scope="col">State Name</th>
-                    <th class="text-center">Created</th>
-                    <th class="text-center">Modified</th>
-                    <th class="text-center">Actions</th>
+                    <td>@dataRow["CityName"]</td>
+                    <td>@dataRow["CityCode"]</td>
+                    <td>@dataRow["CountryName"]</td>
+                    <td>@dataRow["StateName"]</td>
+                    <td>@Convert.ToDateTime(dataRow["CreationDate"]).ToString("dd-MM-yyyy hh:mm:ss")</td>
+                    <td>@Convert.ToDateTime(dataRow["Modified"]).ToString("dd-MM-yyyy hh:mm:ss")</td>
+                    <td class="text-center">
+                        <form method="post" asp-area="LOC_City" asp-controller="LOC_City" asp-action="LOC_CityDelete">
+                            <input type="hidden" value="@Convert.ToInt32(dataRow["CityID"])" name="CityID">
+                            <button type="submit" class="btn btn-outline-danger btn-xs" onclick="return fun1();">
+                                <i class="fa fa-close"></i>
+                            </button>
+                            <a class="btn btn-outline-success btn-xs" asp-area="LOC_City" asp-controller="LOC_City" asp-action="LOC_CityAdd" asp-route-Cityid="@Convert.ToInt32(dataRow["CityID"])"><i class="fa fa-pencil"></i></a>
+                        </form>
+                    </td>
                 </tr>
-            </thead>
-            <tbody id="sample_2">
-                @foreach (DataRow dataRow in Model.Rows)
-                {
-                    <tr>
-                        <td>@dataRow["CityName"]</td>
-                        <td>@dataRow["CityCode"]</td>
-                        <td>@dataRow["CountryName"]</td>
-                        <td>@dataRow["StateName"]</td>
-                        <td>@Convert.ToDateTime(dataRow["CreationDate"]).ToString("dd-MM-yyyy hh:mm:ss")</td>
-                        <td>@Convert.ToDateTime(dataRow["Modified"]).ToString("dd-MM-yyyy hh:mm:ss")</td>
-                        <td class="text-center">
-                            <form method="post" asp-area="LOC_City" asp-controller="LOC_City" asp-action="LOC_CityDelete">
-                                <input type="hidden" value="@Convert.ToInt32(dataRow["CityID"])" name="CityID">
-                                <button type="submit" class="btn btn-outline-danger btn-xs" onclick="return fun1();">
-                                    <i class="fa fa-close"></i>
-                                </button>
-                                <a class="btn btn-outline-success btn-xs" asp-area="LOC_City" asp-controller="LOC_City" asp-action="LOC_CityAdd" asp-route-Cityid="@Convert.ToInt32(dataRow["CityID"])"><i class="fa fa-pencil"></i></a>
-                            </form>
-                        </td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    </div>
+            }
+        </tbody>
+    </table>
 </div>
 
 @section Scripts
     {
     <script>
-        $(document).ready(function () {
-            $("#sample_1").on("keyup", function () {
-                var value = $(this).val().toLowerCase();
-                $("#sample_2 tr").filter(function () {
-                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                });
-            });
-        });
-
         function fun1() {
             if (confirm("Are you sure you want to delete?")) {
                 return true;
             }
             else {
                 return false;
+            }
+        }
+
+        function stateChange() {
+            var CountryID = $("#CountryID").val();
+
+            if (CountryID !== "") {
+                $("#StateID").empty();
+                $("#StateID").append($("<option></option>").val("").html("Select State"));
+                $.ajax(
+                    {
+                        type: "POST",
+                        contentType: "application/json; charset=utf-8",
+                        url: "@Url.Action("DropDownByCountry", "LOC_City")" + "?&CountryID=" + CountryID,
+                        data: {},
+                        dataType: "json",
+                        success: function (Result) {
+                            $.each(Result,
+                                function (key, value) {
+                                    $("#StateID").append($("<option></option>").val(value.stateID).html(value.stateName));
+                                });
+                        },
+                        error: function (r) {
+                            alert("Error while loading combobox.");
+                        }
+                    });
+            }
+            else {
+                $("#StateID").empty();
+                $("#StateID").append($("<option></option>").val("").html("Select State"));
             }
         }
     </script>
