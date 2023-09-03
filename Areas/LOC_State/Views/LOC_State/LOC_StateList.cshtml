@@ -1,14 +1,12 @@
 ﻿@{
     ViewData["Title"] = "State List";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    LOC_StateFilterModel lOC_StateFilterModel = new LOC_StateFilterModel();
 }
 
 @using System.Data
 @model DataTable
 @using AdminPanel.Areas.LOC_State.Models;
-@{
-    LOC_StateFilterModel lOC_StateFilterModel = new LOC_StateFilterModel();
-}
 
 <div class="page-bar">
     <ul class="page-breadcrumb">
@@ -42,24 +40,19 @@
                     <option value="">Select Country</option>
                 </select>
                 <span asp-validation-for="@lOC_StateFilterModel.CountryID" class="text-danger"></span>
-            </div>
-            <div class="pull-right">
                 <input type="text" class="form-control input-sm input-small input-inline" placeholder="StateName" asp-for="@lOC_StateFilterModel.StateName">
-            </div>
-            <div class="pull-right">
                 <input type="text" class="form-control input-sm input-small input-inline" placeholder="StateCode" asp-for="@lOC_StateFilterModel.StateCode">
             </div>
             <div class="actions">
                 <div class="btn-group btn-group-devided">
-                    <button asp-area="LOC_State" asp-controller="LOC_State" asp-action="LOC_StateFilter" class="btn green btn-rounded"><i class="fa fa-plus"></i>&nbsp;Search</button>
+                    <button type="submit" asp-area="LOC_State" asp-controller="LOC_State" asp-action="LOC_StateFilter" class="btn green btn-rounded"><i class="fa fa-plus"></i>&nbsp;Search</button>
+                </div>
+                <div class="btn-group btn-group-devided">
+                    <button type="submit" runat="server" OnClientClick="this.form.reset();return false;" class="btn green btn-rounded"><i class="fa fa-plus"></i>&nbsp;Clear</button>
                 </div>
             </div>
         </div>
-        <div class="actions">
-            <div class="btn-group btn-group-devided">
-                <button type="submit"  runat="server" OnClientClick="this.form.reset();return false;" class="btn green btn-rounded"><i class="fa fa-plus"></i>&nbsp;Clear</button>
-            </div>
-        </div>
+
     </form>
     <table class="table table-striped table-bordered table-hover table-header-fixed dataTable">
         <thead>
