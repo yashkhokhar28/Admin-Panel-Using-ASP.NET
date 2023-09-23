@@ -4,7 +4,6 @@ using System.Data.SqlClient;
 using System.Data;
 using AdminPanel.Areas.LOC_Country.Models;
 using AdminPanel.Areas.LOC_State.Models;
-using static AdminPanel.Areas.LOC_City.Models.LOC_CityModel;
 
 namespace AdminPanel.Areas.LOC_City.Controllers
 {

@@ -1,219 +1,210 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Admin Panel</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="Preview page of Metronic Admin Theme #1 for blank page layout" name="description" />
-    <meta content="" name="author" />
-    <!-- BEGIN GLOBAL MANDATORY STYLES -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css" />
-    @*<link href="~/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />*@
-    <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" type="text/css" />
-    <link href="~/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="~/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="~/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
-    <!-- END GLOBAL MANDATORY STYLES -->
-    <!-- BEGIN THEME GLOBAL STYLES -->
-    <link href="~/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
-    <link href="~/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
-    <!-- END THEME GLOBAL STYLES -->
-    <!-- BEGIN THEME LAYOUT STYLES -->
-    <link href="~/layouts/layout/css/layout.min.css" rel="stylesheet" type="text/css" />
-    <link href="~/layouts/layout/css/themes/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color" />
-    <link href="~/layouts/layout/css/custom.min.css" rel="stylesheet" type="text/css" />
-    <!-- END THEME LAYOUT STYLES -->
-    <link rel="shortcut icon" href="favicon.ico" />
+
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="~/img/favicon.png" rel="icon">
+    <link href="~/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="~/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="~/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="~/vendor/simple-datatables/style.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="~/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+    * Template Name: NiceAdmin
+    * Updated: May 30 2023 with Bootstrap v5.3.0
+    * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
 </head>
-<body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
-    <div class="page-wrapper">
-        <!-- BEGIN HEADER -->
-        <div class="page-header navbar navbar-fixed-top">
-            <!-- BEGIN HEADER INNER -->
-            <div class="page-header-inner">
-                <!-- BEGIN LOGO -->
-                <div class="page-logo">
-                    <a asp-controller="Home" asp-action="Index">
-                        <img src="~/layouts/layout/img/logo.png" alt="logo" class="logo-default" />
-                    </a>
-                    <div class="menu-toggler sidebar-toggler">
-                        <span></span>
-                    </div>
-                </div>
-                <!-- END LOGO -->
-                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
-                <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span></span>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <div class="d-flex align-items-center justify-content-between">
+            <a class="logo d-flex align-items-center" asp-controller="Home" asp-action="Index">
+                <img src="~/img/logo.png" alt="">
+                <span class="d-none d-lg-block">Admin Panel</span>
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div><!-- End Logo -->
+
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
+
+                <li class="nav-item dropdown pe-3">
+
+                    <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                        <img src="~/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+                        <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+                    </a><!-- End Profile Iamge Icon -->
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li class="dropdown-header">
+                            <h6>Kevin Anderson</h6>
+                            <span>Web Designer</span>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                                <i class="bi bi-person"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="#">
+                                <i class="bi bi-box-arrow-right"></i>
+                                <span>Sign Out</span>
+                            </a>
+                        </li>
+
+                    </ul><!-- End Profile Dropdown Items -->
+                </li><!-- End Profile Nav -->
+
+            </ul>
+        </nav><!-- End Icons Navigation -->
+
+    </header><!-- End Header -->
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+
+        <ul class="sidebar-nav" id="sidebar-nav">
+
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="Home" asp-action="Index">
+                    <i class="bi bi-grid"></i>
+                    <span>Dashboard</span>
                 </a>
-                <!-- END RESPONSIVE MENU TOGGLER -->
-                <!-- BEGIN TOP NAVIGATION MENU -->
-                <div class="top-menu">
-                    <ul class="nav navbar-nav pull-right">
-                        <!-- BEGIN NOTIFICATION DROPDOWN -->
-                        <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
-                        <li class="dropdown dropdown-user">
-                            <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                                @*<img alt="" class="img-circle" src="~/layouts/layout/img/avatar3_small.jpg" />*@
-                                <span class="username username-hide-on-mobile">Yash Khokhar</span>
-                                <i class="fa fa-angle-down"></i>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-default">
-                                @*  <li>
-                                <a href="page_user_profile_1.html">
-                                <i class="icon-user"></i> My Profile
-                                </a>
-                                </li>*@
-                                <li>
-                                    @* <a href="@Url.Action("Logout", "SEC_User")"> *@
-                                        <a><i class="icon-key"></i> Log Out</a>
-                                    @* </a> *@
-                                </li>
-                            </ul>
-                        </li>
-                        <!-- END USER LOGIN DROPDOWN -->
-                    </ul>
-                </div>
-                <!-- END TOP NAVIGATION MENU -->
-            </div>
-            <!-- END HEADER INNER -->
-        </div>
-        <!-- END HEADER -->
-        <!-- BEGIN HEADER & CONTENT DIVIDER -->
-        <div class="clearfix"> </div>
-        <!-- END HEADER & CONTENT DIVIDER -->
-        <!-- BEGIN CONTAINER -->
-        <div class="page-container">
-            <!-- BEGIN SIDEBAR -->
-            <div class="page-sidebar-wrapper">
-                <!-- BEGIN SIDEBAR -->
-                <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
-                <!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
-                <div class="page-sidebar navbar-collapse collapse">
-                    <!-- BEGIN SIDEBAR MENU -->
-                    <!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
-                    <!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
-                    <!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
-                    <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
-                    <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
-                    <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
-                    <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
-                        <!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
-                        <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
-                        <li class="sidebar-toggler-wrapper hide">
-                            <div class="sidebar-toggler">
-                                <span></span>
-                            </div>
-                        </li>
-                        <!-- END SIDEBAR TOGGLER BUTTON -->
-                        <!-- DOC: To remove the search box from the sidebar you just need to completely remove the below "sidebar-search-wrapper" LI element -->
-                        <li class="nav-item start">
-                            <a href="javascript:;" class="nav-link nav-toggle">
-                                <i class="icon-bar-chart"></i>
-                                <span class="title">
-                                    Dashboard
-                                </span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="javascript:;" class="nav-link nav-toggle">
-                                <i class="icon-feed"></i>
-                                <span class="title">Education</span>
-                                <span class="arrow"></span>
-                            </a>
-                            <ul class="sub-menu">
-                                <li class="nav-item  ">
-                                    <a class="nav-link" asp-area="MST_Branch" asp-controller="MST_Branch" asp-action="MST_BranchList">
-                                        <span class="title">Branch</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-area="MST_Student" asp-controller="MST_Student" asp-action="MST_StudentList">
-                                        <span class="title">Student</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="javascript:;" class="nav-link nav-toggle">
-                                <i class="icon-layers"></i>
-                                <span class="title">Location</span>
-                                <span class="arrow"></span>
-                            </a>
-                            <ul class="sub-menu">
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryList">
-                                        <span class="title">Country</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-area="LOC_State" asp-controller="LOC_State" asp-action="LOC_StateList">
-                                        <span class="title">State</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-area="LOC_City" asp-controller="LOC_City" asp-action="LOC_CityList">
-                                        <span class="title">City</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <!-- END SIDEBAR MENU -->
-                    <!-- END SIDEBAR MENU -->
-                </div>
-                <!-- END SIDEBAR -->
-            </div>
-            <!-- END SIDEBAR -->
-            <!-- BEGIN CONTENT -->
-            <div class="page-content-wrapper">
-                <!-- BEGIN CONTENT BODY -->
-                <div class="page-content">
-                    <!-- BEGIN PAGE HEADER-->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <!-- BEGIN PAGE BAR -->
-                            <!-- END PAGE BAR -->
-                            <!-- END PAGE HEADER-->
-                            @RenderBody()
-                        </div>
-                    </div>
-                </div>
+            </li><!-- End Dashboard Nav -->
 
-                <!-- END CONTENT BODY -->
-            </div>
-            <!-- END CONTENT -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse">
+                    <i class="bi bi-menu-button-wide"></i><span>Education</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a asp-area="MST_Branch" asp-controller="MST_Branch" asp-action="MST_BranchList">
+                            <i class="bi bi-circle"></i><span>Branch</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-area="MST_Student" asp-controller="MST_Student" asp-action="MST_StudentList">
+                            <i class="bi bi-circle"></i><span>Student</span>
+                        </a>
+                    </li>
 
-        </div>
-        <!-- END CONTAINER -->
-        <div class="page-footer">
-            <div class="page-footer-inner">
-                2022 &copy; By Darshan University
-            </div>
-            <div class="scroll-to-top">
-                <i class="icon-arrow-up"></i>
-            </div>
-        </div>
-        <!-- BEGIN FOOTER -->
-        <!-- END FOOTER -->
-    </div>
+                </ul>
+            </li><!-- End Education Nav -->
 
-    <!-- BEGIN CORE PLUGINS -->
-    <script src="~/global/plugins/jquery.min.js" type="text/javascript"></script>
-    <script src="~/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="~/global/plugins/js.cookie.min.js" type="text/javascript"></script>
-    <script src="~/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-    <script src="~/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
-    <script src="~/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
-    <!-- END CORE PLUGINS -->
-    <!-- BEGIN THEME GLOBAL SCRIPTS -->
-    <script src="~/global/scripts/app.min.js" type="text/javascript"></script>
-    <!-- END THEME GLOBAL SCRIPTS -->
-    <!-- BEGIN THEME LAYOUT SCRIPTS -->
-    <script src="~/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>
-    <script src="~/layouts/layout/scripts/demo.min.js" type="text/javascript"></script>
-    <script src="~/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
-    <script src="~/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+            <li class="nav-item">
+                <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-journal-text"></i><span>Location</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                    <li>
+                        <a asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryList">
+                            <i class="bi bi-circle"></i><span>Country</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-area="LOC_State" asp-controller="LOC_State" asp-action="LOC_StateList">
+                            <i class="bi bi-circle"></i><span>State</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-area="LOC_City" asp-controller="LOC_City" asp-action="LOC_CityList">
+                            <i class="bi bi-circle"></i><span>City</span>
+                        </a>
+                    </li>
+                </ul>
+            </li><!-- End Location Nav -->
+
+        </ul>
+
+    </aside><!-- End Sidebar-->
+    <div class="pagetitle">
+        <h1>Dashboard</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item active">Dashboard</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <div class="container">
+        <main role="main" class="pb-3">
+            <section class="section">
+                @RenderBody()
+            </section>
+        </main>
+    </div><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="copyright">
+            &copy; Copyright <strong><span>Admin Panel</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+            @* Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> *@
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.js"></script>
+
+    <!-- Vendor JS Files -->
+    <script src="~/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/vendor/chart.js/chart.umd.js"></script>
+    <script src="~/vendor/echarts/echarts.min.js"></script>
+    <script src="~/vendor/quill/quill.min.js"></script>
+    <script src="~/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="~/vendor/tinymce/tinymce.min.js"></script>
+    <script src="~/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/js/main.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

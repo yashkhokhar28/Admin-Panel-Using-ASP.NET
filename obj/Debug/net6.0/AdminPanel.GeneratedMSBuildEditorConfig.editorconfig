@@ -44,10 +44,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NvdW50cnlcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/LOC_Country/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX0NvdW50cnlcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/LOC_State/Views/LOC_State/LOC_StateAddEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1N0YXRlXFZpZXdzXExPQ19TdGF0ZVxMT0NfU3RhdGVBZGRFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,10 +56,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1N0YXRlXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/LOC_State/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTE9DX1N0YXRlXF9WaWV3U3RhcnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/MST_Branch/Views/MST_Branch/MST_BranchAddEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0JyYW5jaFxWaWV3c1xNU1RfQnJhbmNoXE1TVF9CcmFuY2hBZGRFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -74,10 +66,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/MST_Branch/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0JyYW5jaFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/MST_Branch/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX0JyYW5jaFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/.Net Core Workshop/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/MST_Student/Views/MST_Student/MST_StudentAddEdit.cshtml]

@@ -4,65 +4,39 @@
 }
 
 @model AdminPanel.Areas.LOC_Country.Models.LOC_CountryModel
-
-<div class="page-bar">
-    <ul class="page-breadcrumb">
-        <li>
-            <a asp-controller="Home" asp-action="Index"><i class="fa fa-home"></i>&nbsp;Home</a>
-            <i class="fa fa-circle"></i>
-        </li>
-        <li>
-            <span>Country Add/Edit</span>
-            <i class="fa fa-circle"></i>
-        </li>
-    </ul>
-</div>
-<div class="row margin-top-10">
-    <div class="col-md-12">
-        <div class="col-md-9">
-            <!-- BEGIN SAMPLE FORM PORTLET-->
-            <div class="portlet light bordered">
-                <div class="portlet-title">
-                    <div class="caption">
-                        <i class="icon-settings font-dark"></i>
-                        <span class="caption-subject font-dark sbold uppercase">Country Add/Edit</span>
-                    </div>
-                </div>
-                <div class="portlet-body form">
-                    <form class="form-horizontal" role="form" method="post" asp-controller="LOC_Country" asp-action="LOC_CountrySave" asp-area="LOC_Country">
-                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                        @Html.HiddenFor(x=>x.CountryID)
-                        <div class="form-body">
-                            <div class="form-group">
-                                <label class="col-md-3 control-label"><span class="text-danger">*</span>Country Name</label>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control" asp-for="CountryName" placeholder="Enter Country Name" />
-                                    <span asp-validation-for="CountryName" class="text-danger"></span>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-3 control-label"><span class="text-danger">*</span>Country Code</label>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control" asp-for="CountryCode" placeholder="Enter Country Code" />
-                                    <span asp-validation-for="CountryCode" class="text-danger"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-actions">
-                            <div class="row">
-                                <div class="col-md-offset-3 col-md-9">
-                                    <input type="submit" class="btn green" value="Save" />
-                                    <a class="btn default" asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryList">Cancel</a>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+<main class="main" id="main">
+    <div class="pagetitle">
+        <h1>Country</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index"><i class="bi bi-house-door"></i></a></li>
+                <li class="breadcrumb-item"><span>Country Add</span></li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <form class="row g-3" role="form" method="post" asp-controller="LOC_Country" asp-action="LOC_CountrySave" asp-area="LOC_Country">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @Html.HiddenFor(x=>x.CountryID)
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" asp-for="CountryName" placeholder="Enter Country Name" />
+                <span asp-validation-for="CountryName" class="text-danger"></span>
+                <label for="floatingName">Country Name</label>
             </div>
-            <!-- END SAMPLE FORM PORTLET-->
         </div>
-    </div>
-</div>
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" asp-for="CountryCode" placeholder="Enter Country Code" />
+                <span asp-validation-for="CountryCode" class="text-danger"></span>
+                <label for="floatingName">Country Name</label>
+            </div>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-outline-success">Save</button>
+            <a class="btn btn-outline-secondary" asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryList">Back</a>
+        </div>
+    </form>
+</main>
 
 @section Scripts {
     @{

@@ -5,64 +5,40 @@
 
 @model AdminPanel.Areas.MST_Branch.Models.MST_BranchModel
 
-<div class="page-bar">
-    <ul class="page-breadcrumb">
-        <li>
-            <a asp-controller="Home" asp-action="Index"><i class="fa fa-home"></i>&nbsp;Home</a>
-            <i class="fa fa-circle"></i>
-        </li>
-        <li>
-            <span>Branch Add/Edit</span>
-            <i class="fa fa-circle"></i>
-        </li>
-    </ul>
-</div>
-<div class="row margin-top-10">
-    <div class="col-md-12">
-        <div class="col-md-9">
-            <!-- BEGIN SAMPLE FORM PORTLET-->
-            <div class="portlet light bordered">
-                <div class="portlet-title">
-                    <div class="caption">
-                        <i class="icon-settings font-dark"></i>
-                        <span class="caption-subject font-dark sbold uppercase">Branch Add/Edit</span>
-                    </div>
-                </div>
-                <div class="portlet-body form">
-                    <form class="form-horizontal" role="form" method="post" asp-controller="MST_Branch" asp-action="MST_BranchSave" asp-area="MST_Branch">
-                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                        @Html.HiddenFor(x=>x.BranchID)
-                        <div class="form-body">
-                            <div class="form-group">
-                                <label class="col-md-3 control-label"><span class="text-danger">*</span>Branch Name</label>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control" asp-for="BranchName" placeholder="Enter Branch Name" />
-                                    <span asp-validation-for="BranchName" class="text-danger"></span>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-md-3 control-label"><span class="text-danger">*</span>Branch Code</label>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control" asp-for="BranchCode" placeholder="Enter Branch Code" />
-                                    <span asp-validation-for="BranchCode" class="text-danger"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-actions">
-                            <div class="row">
-                                <div class="col-md-offset-3 col-md-9">
-                                    <input type="submit" class="btn green" value="Save" />
-                                    <a class="btn default" asp-area="MST_Branch" asp-controller="MST_Branch" asp-action="MST_BranchList">Cancel</a>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+<main class="main" id="main">
+    <div class="pagetitle">
+        <h1>Branch</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index"><i class="bi bi-house-door"></i></a></li>
+                <li class="breadcrumb-item"><span>Branch Add</span></li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <form class="row g-3" role="form" method="post" asp-controller="MST_Branch" asp-action="MST_BranchSave" asp-area="MST_Branch">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @Html.HiddenFor(x=>x.BranchID)
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" asp-for="BranchName" placeholder="Enter Country Name" />
+                <span asp-validation-for="BranchName" class="text-danger"></span>
+                <label for="floatingName">Branch Name</label>
             </div>
-            <!-- END SAMPLE FORM PORTLET-->
         </div>
-    </div>
-</div>
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" asp-for="BranchCode" placeholder="Enter Country Name" />
+                <span asp-validation-for="BranchCode" class="text-danger"></span>
+                <label for="floatingName">Branch Code</label>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-outline-success">Save</button>
+            <a class="btn btn-outline-secondary" asp-area="MST_Branch" asp-controller="MST_Branch" asp-action="MST_BranchList">Back</a>
+        </div>
+    </form>
+</main>
 
 @section Scripts {
     @{
