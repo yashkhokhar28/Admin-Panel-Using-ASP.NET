@@ -64,7 +64,7 @@ namespace AdminPanel.Areas.MST_Branch.Controllers
         #endregion
 
         #region Insert
-        public IActionResult MST_BranchSave(MST_BranchModel mST_BranchModel,int BranchID = 0)
+        public IActionResult MST_BranchSave(MST_BranchModel mST_BranchModel, int BranchID = 0)
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
@@ -74,7 +74,7 @@ namespace AdminPanel.Areas.MST_Branch.Controllers
             if (BranchID == 0)
             {
                 command.CommandText = "PR_Branch_Insert";
-                command.Parameters.AddWithValue("@Created",DateTime.Now);
+                command.Parameters.AddWithValue("@Created", DateTime.Now);
             }
             else
             {
@@ -104,6 +104,26 @@ namespace AdminPanel.Areas.MST_Branch.Controllers
             connection.Close();
             return RedirectToAction("MST_BranchList");
         }
+        #endregion
+
+        #region Filter
+        public IActionResult MST_BranchFilter(MST_BranchFilterModel filterModel)
+        {
+            string connectionString = this.Configuration.GetConnectionString("ConnectionString");
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+            SqlCommand command = connection.CreateCommand();
+            command.CommandType = CommandType.StoredProcedure;
+            command.CommandText = "PR_BranchFilter";
+            command.Parameters.AddWithValue("@BranchName", filterModel.BranchName);
+            command.Parameters.AddWithValue("@BranchCode", filterModel.BranchCode);
+            DataTable table = new DataTable();
+            SqlDataReader reader = command.ExecuteReader();
+            table.Load(reader);
+            ModelState.Clear();
+            return View("MST_BranchList", table);
+        }
+
         #endregion
     }
 }
