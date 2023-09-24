@@ -16,16 +16,25 @@
             </ol>
         </nav>
     </div><!-- End Page Title -->
-    <div class="d-flex justify-content-between align-items-center m-2">
-        <div class="search-bar">
-            <form class="search-form d-flex align-items-center" method="POST" asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryFilter">
-                <input type="text" name="CountryData" placeholder="Country Data">
-                <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-            </form>
-        </div>
-        <a asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryAdd" class="btn btn-outline-primary"><i class="bi bi-plus-lg"></i>&nbsp;Add Country</a>
-
-    </div> <!-- End Search Bar -->
+    <div class="m-2">
+        <form class="row g-3" method="POST" asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryFilter">
+            <div class="col-md-4">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingZip" name="CountryData" placeholder="Country Data">
+                    <label for="floatingZip">Counter Data</label>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="text-right">
+                    <button type="submit" class="btn btn-outline-success" asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryFilter">Submit</button>
+                    <button type="submit" runat="server" OnClientClick="this.form.reset();return false;" class="btn btn-outline-secondary">Reset</button>
+                </div>
+                <div>
+                    <a asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryAdd" class="btn btn-outline-primary"><i class="bi bi-plus-lg"></i>&nbsp;Add Country</a>
+                </div>
+            </div>
+        </form>
+    </div>
     <table class="table table-hover table-header-fixed">
         <thead>
             <tr>

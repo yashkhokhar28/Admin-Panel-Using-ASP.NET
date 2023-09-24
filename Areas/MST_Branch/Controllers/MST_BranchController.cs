@@ -19,16 +19,14 @@ namespace AdminPanel.Areas.MST_Branch.Controllers
         #endregion
 
         #region Branch List
-        public IActionResult MST_BranchList(string BranchData = "")
+        public IActionResult MST_BranchList()
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = connection.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "PR_SelectByBranchName";
-            if (BranchData != "")
-                command.Parameters.AddWithValue("@data", BranchData);
+            command.CommandText = "PR_Branch_SelectAll";
             SqlDataReader reader = command.ExecuteReader();
             DataTable table = new DataTable();
             table.Load(reader);
@@ -81,7 +79,7 @@ namespace AdminPanel.Areas.MST_Branch.Controllers
             else
             {
                 command.CommandText = "PR_Branch_UpdateByPK";
-                command.Parameters.AddWithValue("@BranchID", BranchID);
+                command.Parameters.AddWithValue("@BranchID", mST_BranchModel.BranchID);
             }
             command.Parameters.AddWithValue("@BranchName", mST_BranchModel.BranchName);
             command.Parameters.AddWithValue("@BranchCode", mST_BranchModel.BranchCode);

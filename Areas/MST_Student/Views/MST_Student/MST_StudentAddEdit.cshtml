@@ -15,103 +15,102 @@
             </ol>
         </nav>
     </div><!-- End Page Title -->
-    <div>
-        <form class="row g-3" role="form" method="post" asp-controller="MST_Student" asp-action="MST_StudentSave" asp-area="MST_Student">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            @Html.HiddenFor(x=>x.BranchID)
-            <div class="col-md-12">
-                <div class="form-floating">
-                    <input type="text" class="form-control" asp-for="StudentName" placeholder="Enter Student Name" />
-                    <span asp-validation-for="StudentName" class="text-danger"></span>
-                    <label for="floatingName">Student Name</label>
-                </div>
+    <form class="row g-3" role="form" method="post" asp-controller="MST_Student" asp-action="MST_StudentSave" asp-area="MST_Student">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        @Html.HiddenFor(x=>x.BranchID)
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" asp-for="StudentName" placeholder="Enter Student Name" />
+                <span asp-validation-for="StudentName" class="text-danger"></span>
+                <label for="floatingName">Student Name</label>
             </div>
-            <div class="col-md-12">
-                <div class="form-floating">
-                    <input type="number" class="form-control" asp-for="MobileNoStudent" placeholder="Enter Student's Mobile Number" />
-                    <span asp-validation-for="MobileNoStudent" class="text-danger"></span>
-                    <label for="floatingName">Student's Mobile Number</label>
-                </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="number" class="form-control" asp-for="MobileNoStudent" placeholder="Enter Student's Mobile Number" />
+                <span asp-validation-for="MobileNoStudent" class="text-danger"></span>
+                <label for="floatingName">Student's Mobile Number</label>
             </div>
-            <div class="col-md-12">
-                <div class="form-floating">
-                    <input type="email" class="form-control" asp-for="Email" placeholder="Enter Email" />
-                    <span asp-validation-for="Email" class="text-danger"></span>
-                    <label for="floatingName">Email</label>
-                </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="email" class="form-control" asp-for="Email" placeholder="Enter Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+                <label for="floatingName">Email</label>
             </div>
-            <div class="col-md-12">
-                <div class="form-floating">
-                    <input type="number" class="form-control" asp-for="MobileNoFather" placeholder="Enter Father's Mobile Number" />
-                    <span asp-validation-for="MobileNoFather" class="text-danger"></span>
-                    <label for="floatingName">Father's Mobile Number</label>
-                </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="number" class="form-control" asp-for="MobileNoFather" placeholder="Enter Father's Mobile Number" />
+                <span asp-validation-for="MobileNoFather" class="text-danger"></span>
+                <label for="floatingName">Father's Mobile Number</label>
             </div>
-            <div class="col-md-12">
-                <div class="form-floating">
-                    <input type="text" class="form-control" asp-for="Address" placeholder="Enter Address" />
-                    <span asp-validation-for="Address" class="text-danger"></span>
-                    <label for="floatingName">Address</label>
-                </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" asp-for="Address" placeholder="Enter Address" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+                <label for="floatingName">Address</label>
             </div>
-            <div class="col-md-12">
-                <div class="form-floating">
-                    <input type="date" class="form-control" asp-for="BirthDate" placeholder="Enter BirthDate" />
-                    <span asp-validation-for="BirthDate" class="text-danger"></span>
-                    <label for="floatingName">BirthDate</label>
-                </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="date" class="form-control" asp-for="BirthDate" placeholder="Enter BirthDate" />
+                <span asp-validation-for="BirthDate" class="text-danger"></span>
+                <label for="floatingName">BirthDate</label>
             </div>
-            <div class="col-md-12">
-                <div class="form-floating">
-                    <input type="text" class="form-control" asp-for="Age" placeholder="Enter Age" />
-                    <span asp-validation-for="Age" class="text-danger"></span>
-                    <label for="floatingName">Age</label>
-                </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" asp-for="Age" placeholder="Enter Age" />
+                <span asp-validation-for="Age" class="text-danger"></span>
+                <label for="floatingName">Age</label>
             </div>
-            <div class="col-md-12">
-                <div class="form-floating">
-                    <input type="text" class="form-control" asp-for="IsActive" placeholder="Enter IsActive" />
-                    <span asp-validation-for="IsActive" class="text-danger"></span>
-                    <label for="floatingName">IsActive</label>
-                </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" asp-for="IsActive" placeholder="Enter IsActive" />
+                <span asp-validation-for="IsActive" class="text-danger"></span>
+                <label for="floatingName">IsActive</label>
             </div>
-            <div class="col-md-12">
-                <div class="form-floating">
-                    <input type="text" class="form-control" asp-for="Gender" placeholder="Enter Gender" />
-                    <span asp-validation-for="Gender" class="text-danger"></span>
-                    <label for="floatingName">Gender</label>
-                </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" asp-for="Gender" placeholder="Enter Gender" />
+                <span asp-validation-for="Gender" class="text-danger"></span>
+                <label for="floatingName">Gender</label>
             </div>
-            <div class="col-md-12">
-                <div class="form-floating">
-                    <input type="password" class="form-control" asp-for="Password" placeholder="Enter Password" />
-                    <span asp-validation-for="Password" class="text-danger"></span>
-                    <label for="floatingName">Password</label>
-                </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" asp-for="Password" placeholder="Enter Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+                <label for="floatingName">Password</label>
             </div>
-            <div class="col-md-12">
-                <div class="form-floating mb-3">
-                    <select class="form-control" asp-for="CityID" asp-items="@(new SelectList(ViewBag.CityList,"CityID","CityName"))">
-                        <option value="">Select City</option>
-                    </select>
-                    <span asp-validation-for="CityID" class="text-danger"></span>
-                    <label for="floatingSelect">City Name</label>
-                </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating mb-3">
+                <select class="form-control" asp-for="CityID" asp-items="@(new SelectList(ViewBag.CityList,"CityID","CityName"))">
+                    <option value="">Select City</option>
+                </select>
+                <span asp-validation-for="CityID" class="text-danger"></span>
+                <label for="floatingSelect">City Name</label>
             </div>
-            <div class="col-md-12">
-                <div class="form-floating mb-3">
-                    <select class="form-control" asp-for="BranchID" asp-items="@(new SelectList(ViewBag.BranchList,"BranchID","BranchName"))">
-                        <option value="">Select Branch</option>
-                    </select>
-                    <span asp-validation-for="BranchID" class="text-danger"></span>
-                    <label for="floatingSelect">State Name</label>
-                </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating mb-3">
+                <select class="form-control" asp-for="BranchID" asp-items="@(new SelectList(ViewBag.BranchList,"BranchID","BranchName"))">
+                    <option value="">Select Branch</option>
+                </select>
+                <span asp-validation-for="BranchID" class="text-danger"></span>
+                <label for="floatingSelect">Branch Name</label>
             </div>
-            <div class="text-center">
-                <button type="submit" class="btn btn-outline-success">Save</button>
-                <a class="btn btn-outline-secondary" asp-area="MST_Student" asp-controller="MST_Student" asp-action="MST_StudentList">Back</a>
-            </div>
-        </form>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-outline-success">Save</button>
+            <a class="btn btn-outline-secondary" asp-area="MST_Student" asp-controller="MST_Student" asp-action="MST_StudentList">Back</a>
+        </div>
+    </form>
 </main>
 
 

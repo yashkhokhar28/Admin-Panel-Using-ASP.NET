@@ -47,7 +47,6 @@
                 <th scope="col">Student Gender</th>
                 <th scope="col">Branch Name</th>
                 <th scope="col">City Name</th>
-                <th scope="col">Country Name</th>
                 <th class="text-center">Created</th>
                 <th class="text-center">Modified</th>
                 <th class="text-center">Action</th>
@@ -65,8 +64,6 @@
                     <td>@dataRow["Age"]</td>
                     <td>@dataRow["Gender"]</td>
                     <td>@dataRow["BranchName"]</td>
-                    <td>@dataRow["CityName"]</td>
-                    <td>@dataRow["CountryName"]</td>
                     <td class="text-center">@Convert.ToDateTime(dataRow["Created"]).ToString("dd-MM-yyyy")</td>
                     <td class="text-center">@Convert.ToDateTime(dataRow["Modified"]).ToString("dd-MM-yyyy")</td>
                     <td class="text-center">
@@ -75,7 +72,7 @@
                             <button type="submit" class="btn btn-outline-danger btn-xs" onclick="return fun1();">
                                 <i class="bi bi-x"></i>
                             </button>
-                            <a class="btn btn-outline-success btn-xs" asp-area="MST_Student" asp-controller="MST_Student" asp-action="MST_StudentAdd" asp-route-Branchid="@Convert.ToInt32(dataRow["StudentID"])"><i class="bi bi-pencil-fill"></i></a>
+                            <a class="btn btn-outline-success btn-xs" asp-area="MST_Student" asp-controller="MST_Student" asp-action="MST_StudentAdd" asp-route-studentid="@Convert.ToInt32(dataRow["StudentID"])"><i class="bi bi-pencil-fill"></i></a>
                         </form>
                     </td>
                 </tr>
