@@ -18,8 +18,8 @@ namespace AdminPanel.Areas.MST_Branch.Models
     }
     public class MST_BranchFilterModel
     {
-        public int BranchID { get; set; }
-        public string BranchName { get; set; }
-        public string BranchCode { get; set; }
+        public int? BranchID { get; set; }
+        public string? BranchName { get; set; }
+        public string? BranchCode { get; set; }
     }
 }

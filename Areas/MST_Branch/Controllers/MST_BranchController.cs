@@ -107,7 +107,7 @@ namespace AdminPanel.Areas.MST_Branch.Controllers
         #endregion
 
         #region Filter
-        public IActionResult MST_BranchFilter(MST_BranchFilterModel filterModel)
+        public IActionResult MST_BranchFilter(MST_BranchFilterModel mST_BranchFilterModel)
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
             SqlConnection connection = new SqlConnection(connectionString);
@@ -115,8 +115,8 @@ namespace AdminPanel.Areas.MST_Branch.Controllers
             SqlCommand command = connection.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
             command.CommandText = "PR_BranchFilter";
-            command.Parameters.AddWithValue("@BranchName", filterModel.BranchName);
-            command.Parameters.AddWithValue("@BranchCode", filterModel.BranchCode);
+            command.Parameters.AddWithValue("@BranchName", mST_BranchFilterModel.BranchName);
+            command.Parameters.AddWithValue("@BranchCode", mST_BranchFilterModel.BranchCode);
             DataTable table = new DataTable();
             SqlDataReader reader = command.ExecuteReader();
             table.Load(reader);

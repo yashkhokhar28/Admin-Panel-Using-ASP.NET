@@ -142,8 +142,8 @@ namespace AdminPanel.Areas.MST_Student.Controllers
         public IActionResult MST_StudentAdd(int StudentID = 0)
         {
             string connectionString = this.Configuration.GetConnectionString("ConnectionString");
-            #region City ComboBox
 
+            #region City ComboBox
             SqlConnection connection1 = new SqlConnection(connectionString);
             connection1.Open();
             SqlCommand command1 = connection1.CreateCommand();
@@ -185,6 +185,7 @@ namespace AdminPanel.Areas.MST_Student.Controllers
                 list2.Add(mST_BranchDropDownModel);
             }
             ViewBag.BranchList = list2;
+            Console.WriteLine(list2);
             #endregion
             if (StudentID != 0)
             {
