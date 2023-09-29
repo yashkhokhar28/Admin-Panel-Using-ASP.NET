@@ -24,6 +24,12 @@
                     <label for="floatingZip">Counter Data</label>
                 </div>
             </div>
+            <div class="col-md-4">
+                <div class="form-floating dataTables_filter" id="sample_1_filter">
+                    <input type="text" class="form-control input-sm input-small input-inline" id="sample_1" placeholder="Search">
+                    <label for="floatingZip">Counter Data</label>
+                </div>
+            </div>
             <div class="d-flex justify-content-between align-items-center">
                 <div class="text-right">
                     <button type="submit" class="btn btn-outline-success" asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryFilter">Submit</button>
@@ -45,7 +51,7 @@
                 <th class="text-center">Actions</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody id="sample_2">
             @foreach (DataRow dataRow in Model.Rows)
             {
                 <tr>
@@ -71,6 +77,15 @@
 @section Scripts
     {
     <script>
+        $(document).ready(function () {
+            $("#sample_1").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#sample_2 tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+
         function fun1() {
             if (confirm("Are you sure you want to delete?")) {
                 return true;

@@ -17,7 +17,7 @@
     </div><!-- End Page Title -->
     <form class="row g-3" role="form" method="post" asp-controller="MST_Student" asp-action="MST_StudentSave" asp-area="MST_Student">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        @Html.HiddenFor(x=>x.BranchID)
+        @Html.HiddenFor(x=>x.StudentID)
         <div class="col-md-12">
             <div class="form-floating">
                 <input type="text" class="form-control" asp-for="StudentName" placeholder="Enter Student Name" />
