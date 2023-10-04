@@ -19,7 +19,6 @@ namespace AdminPanel.Areas.MST_Student.Controllers
         }
         #endregion
 
-
         #region StudentList
         public IActionResult MST_StudentList()
         {

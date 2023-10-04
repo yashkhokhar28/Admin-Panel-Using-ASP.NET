@@ -19,20 +19,6 @@
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         @Html.HiddenFor(x=>x.CityID)
         <div class="col-md-12">
-            <div class="form-floating">
-                <input type="text" class="form-control" asp-for="CityName" placeholder="Enter Country Name" />
-                <span asp-validation-for="CityName" class="text-danger"></span>
-                <label for="floatingName">City Name</label>
-            </div>
-        </div>
-        <div class="col-md-12">
-            <div class="form-floating">
-                <input type="text" class="form-control" asp-for="CityCode" placeholder="Enter Country Name" />
-                <span asp-validation-for="CityName" class="text-danger"></span>
-                <label for="floatingName">City Code</label>
-            </div>
-        </div>
-        <div class="col-md-12">
             <div class="form-floating mb-3">
                 <select class="form-control" asp-for="CountryID" asp-items="@(new SelectList(ViewBag.CountryList,"CountryID","CountryName"))" onchange="stateChange();">
                     <option value="">Select Country</option>
@@ -50,6 +36,21 @@
                 <label for="floatingSelect">State Name</label>
             </div>
         </div>
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" asp-for="CityName" placeholder="Enter Country Name" />
+                <span asp-validation-for="CityName" class="text-danger"></span>
+                <label for="floatingName">City Name</label>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-floating">
+                <input type="text" class="form-control" asp-for="CityCode" placeholder="Enter Country Name" />
+                <span asp-validation-for="CityName" class="text-danger"></span>
+                <label for="floatingName">City Code</label>
+            </div>
+        </div>
+        
         <div class="text-center">
             <button type="submit" class="btn btn-outline-success">Save</button>
             <a class="btn btn-outline-secondary" asp-area="LOC_City" asp-controller="LOC_City" asp-action="LOC_CityList">Back</a>

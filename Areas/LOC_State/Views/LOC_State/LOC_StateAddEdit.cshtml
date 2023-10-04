@@ -18,6 +18,15 @@
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         @Html.HiddenFor(x=>x.StateID)
         <div class="col-md-12">
+            <div class="form-floating mb-3">
+                <select class="form-control" asp-for="CountryID" asp-items="@(new SelectList(ViewBag.CountryList,"CountryID","CountryName"))">
+                    <option value="">Select Country</option>
+                </select>
+                <span asp-validation-for="CountryID" class="text-danger"></span>
+                <label for="floatingSelect">Country Name</label>
+            </div>
+        </div>
+        <div class="col-md-12">
             <div class="form-floating">
                 <input type="text" class="form-control" asp-for="StateName" placeholder="Enter Country Name" />
                 <span asp-validation-for="StateName" class="text-danger"></span>
@@ -31,15 +40,7 @@
                 <label for="floatingName">State Code</label>
             </div>
         </div>
-        <div class="col-md-12">
-            <div class="form-floating mb-3">
-                <select class="form-control" asp-for="CountryID" asp-items="@(new SelectList(ViewBag.CountryList,"CountryID","CountryName"))">
-                    <option value="">Select Country</option>
-                </select>
-                <span asp-validation-for="CountryID" class="text-danger"></span>
-                <label for="floatingSelect">Country Name</label>
-            </div>
-        </div>
+        
         <div class="text-center">
             <button type="submit" class="btn btn-outline-success">Save</button>
             <a class="btn btn-outline-secondary" asp-area="LOC_State" asp-controller="LOC_State" asp-action="LOC_StateList">Back</a>
