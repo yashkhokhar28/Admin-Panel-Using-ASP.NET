@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dBmikFQWXIJD4+ktHRx9WbVJ2FqIR2osABzN1imIeu0H5VBAO31xER39ahGd2gP1fGe4ZdQ7uXY5nxXMoVfs+w==",
+  "dgSpecHash": "aliPnqY4K9jPf2MO5DxKd54gBLLK+BffzuqREOT0OwTjPMTKuv+Yr/D74IpKfItmnqzUDEhjHhgz49Kr8cSJRA==",
   "success": true,
-  "projectFilePath": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\AdminPanel.csproj",
+  "projectFilePath": "D:\\ASP.NET\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\AdminPanel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yashk\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\yashk\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

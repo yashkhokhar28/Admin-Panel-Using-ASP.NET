@@ -9836,11 +9836,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\AdminPanel.csproj",
+      "projectUniqueName": "D:\\ASP.NET\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\AdminPanel.csproj",
       "projectName": "AdminPanel",
-      "projectPath": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\AdminPanel.csproj",
+      "projectPath": "D:\\ASP.NET\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\AdminPanel.csproj",
       "packagesPath": "C:\\Users\\yashk\\.nuget\\packages\\",
-      "outputPath": "D:\\.Net Core Workshop\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\obj\\",
+      "outputPath": "D:\\ASP.NET\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yashk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9897,7 +9897,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
