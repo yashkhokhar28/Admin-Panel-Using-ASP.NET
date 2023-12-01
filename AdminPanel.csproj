@@ -11,9 +11,11 @@
     <Folder Include="Areas\LOC_State\Data\" />
     <Folder Include="Areas\MST_Branch\Data\" />
     <Folder Include="Areas\MST_Student\Data\" />
+    <Folder Include="DAL\LOC_CityDAL\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="EnterpriseLibrary.Data.NetCore" Version="6.3.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>

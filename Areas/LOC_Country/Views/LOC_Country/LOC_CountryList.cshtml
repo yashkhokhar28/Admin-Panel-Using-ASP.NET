@@ -20,8 +20,14 @@
         <form class="row g-3" method="POST" asp-area="LOC_Country" asp-controller="LOC_Country" asp-action="LOC_CountryFilter">
             <div class="col-md-4">
                 <div class="form-floating">
-                    <input type="text" class="form-control" id="floatingZip" name="CountryData" placeholder="Country Data">
-                    <label for="floatingZip">Country</label>
+                    <input type="text" class="form-control" id="floatingZip" name="CountryName" placeholder="Country Name">
+                    <label for="floatingZip">Country Name</label>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingZip" name="CountryCode" placeholder="Country Code">
+                    <label for="floatingZip">Country Code</label>
                 </div>
             </div>
             <div class="col-md-4">
