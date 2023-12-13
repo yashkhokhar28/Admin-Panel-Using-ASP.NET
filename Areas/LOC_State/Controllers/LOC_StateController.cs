@@ -18,6 +18,7 @@ namespace AdminPanel.Areas.LOC_State.Controllers
             #endregion
 
             DataTable dataTable = lOC_StateDAL.dbo_PR_LOC_State_SelectAll();
+
             return View(dataTable);
         }
         #endregion
@@ -42,23 +43,18 @@ namespace AdminPanel.Areas.LOC_State.Controllers
         #endregion
 
         #region Satet Insert & State Update 
-        public IActionResult LOC_StateSave(LOC_StateModel lOC_StateModel, int StateID = 0)
+        public IActionResult LOC_StateSave(LOC_StateModel lOC_StateModel)
         {
             if (ModelState.IsValid)
             {
                 if (lOC_StateDAL.dbo_PR_LOC_State_Save(lOC_StateModel))
-                {
-                    if (lOC_StateModel.StateID == 0)
-                    {
-                        return RedirectToAction("LOC_StateList");
-                    }
-                    else
-                        return RedirectToAction("LOC_StateList");
-                }
+
+                    return RedirectToAction("LOC_StateList");
             }
             return View("LOC_StateAddEdit");
         }
         #endregion
+
 
         #region State Delete
         public IActionResult LOC_StateDelete(int StateID)

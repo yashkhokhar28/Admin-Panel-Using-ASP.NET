@@ -11,7 +11,6 @@
     <Folder Include="Areas\LOC_State\Data\" />
     <Folder Include="Areas\MST_Branch\Data\" />
     <Folder Include="Areas\MST_Student\Data\" />
-    <Folder Include="DAL\LOC_CityDAL\" />
   </ItemGroup>
 
   <ItemGroup>
