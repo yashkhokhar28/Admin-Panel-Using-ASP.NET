@@ -41,6 +41,7 @@ namespace AdminPanel.Areas.SEC_User.Controllers
                 {
                     foreach (DataRow dr in dt.Rows)
                     {
+                        Console.WriteLine(dr);
                         HttpContext.Session.SetString("UserName", dr["UserName"].ToString());
                         HttpContext.Session.SetString("UserID", dr["UserID"].ToString());
                         HttpContext.Session.SetString("Password", dr["Password"].ToString());
