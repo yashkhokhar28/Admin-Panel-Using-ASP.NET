@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\AdminPanel.bundle.scp.css"
     },
     {
+      "Id": "D:\\ASP.NET\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\Upload\\05.jpg",
+      "PackagePath": "staticwebassets\\Upload\\05.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\Upload\\352234.jpg",
+      "PackagePath": "staticwebassets\\Upload\\352234.jpg"
+    },
+    {
+      "Id": "D:\\ASP.NET\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\Upload\\6165881.jpg",
+      "PackagePath": "staticwebassets\\Upload\\6165881.jpg"
+    },
+    {
       "Id": "D:\\ASP.NET\\Projects\\AdminPanel\\Admin-Panel-Using-ASP.NET\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },

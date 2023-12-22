@@ -12,9 +12,10 @@ namespace AdminPanel.BAL
             string currentController = rd.Values["controller"].ToString();
             //string currentArea = rd.DataTokens["area"].ToString();
 
+
             if (filterContext.HttpContext.Session.GetString("UserID") == null)
             {
-                filterContext.Result = new RedirectResult("~/SEC_User/SEC_User/SEC_UserLogin");
+                filterContext.Result = new RedirectResult("~/SEC_User/SEC_User/SEC_UserRegister");
             }
         }
 

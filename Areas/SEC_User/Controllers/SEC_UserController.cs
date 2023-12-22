@@ -9,16 +9,21 @@ namespace AdminPanel.Areas.SEC_User.Controllers
     [Route("SEC_User/[controller]/[action]")]
     public class SEC_UserController : Controller
     {
-
         public IActionResult SEC_UserLogin()
         {
             return View();
         }
+
+        public IActionResult SEC_UserRegister()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Login(SEC_UserModel modelSEC_User)
         {
             string error = null;
-            Console.WriteLine("Hello ", modelSEC_User.UserName);
+
             if (modelSEC_User.UserName == null)
             {
                 error += "User Name is required";
@@ -69,5 +74,22 @@ namespace AdminPanel.Areas.SEC_User.Controllers
             HttpContext.Session.Clear();
             return RedirectToAction("SEC_UserLogin");
         }
+
+        public IActionResult Register(SEC_UserModel sEC_UserModel)
+        {
+            SEC_UserDAL sEC_UserDAL = new SEC_UserDAL();
+            bool IsSuccess = sEC_UserDAL.dbo_PR_SEC_User_Register(sEC_UserModel.UserName, sEC_UserModel.Password, sEC_UserModel.FirstName, sEC_UserModel.LastName, sEC_UserModel.EmailAddress, sEC_UserModel.PhotoPath, sEC_UserModel.Created, sEC_UserModel.Modified);
+            if (IsSuccess)
+            {
+                return RedirectToAction("SEC_UserLogin");
+            }
+            else
+            {
+                return RedirectToAction("SEC_UserRegister");
+            }
+        }
+
+
+
     }
 }
