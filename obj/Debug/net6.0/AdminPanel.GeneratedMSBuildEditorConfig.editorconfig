@@ -78,6 +78,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTVNUX1N0dWRlbnRcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ASP.NET/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/SEC_Admin/Views/SEC_Admin/SEC_AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU0VDX0FkbWluXFZpZXdzXFNFQ19BZG1pblxTRUNfQWRtaW5EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/SEC_Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU0VDX0FkbWluXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ASP.NET/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Areas/SEC_User/Views/SEC_User/SEC_UserLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU0VDX1VzZXJcVmlld3NcU0VDX1VzZXJcU0VDX1VzZXJMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -104,6 +112,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ASP.NET/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Views/Shared/_Layout_Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.NET/Projects/AdminPanel/Admin-Panel-Using-ASP.NET/Views/Shared/_Layout_Login.cshtml]

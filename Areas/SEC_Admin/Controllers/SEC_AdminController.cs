@@ -3,24 +3,19 @@ using AdminPanel.DAL.SEC_User;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
 
-namespace AdminPanel.Areas.SEC_User.Controllers
+namespace AdminPanel.Areas.SEC_Admin.Controllers
 {
-    [Area("SEC_User")]
-    [Route("SEC_User/[controller]/[action]")]
-    public class SEC_UserController : Controller
+    [Area("SEC_Admin")]
+    [Route("SEC_Admin/[controller]/[action]")]
+    public class SEC_AdminController : Controller
     {
-        public IActionResult SEC_UserLogin()
-        {
-            return View();
-        }
-
-        public IActionResult SEC_UserRegister()
+        public IActionResult SEC_AdminDashboard()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult Login(SEC_UserModel modelSEC_User)
+        public IActionResult AdminLogin(SEC_UserModel modelSEC_User)
         {
             string error = null;
 
@@ -36,11 +31,10 @@ namespace AdminPanel.Areas.SEC_User.Controllers
             if (error != null)
             {
                 TempData["Error"] = error;
-                return RedirectToAction("SEC_UserLogin");
+                return RedirectToAction("SEC_AdminDashboard");
             }
             else
             {
-
                 SEC_UserDAL sEC_UserDAL = new SEC_UserDAL();
                 DataTable dt = sEC_UserDAL.dbo_PR_SEC_User_SelectByUserNamePassword(modelSEC_User.UserName, modelSEC_User.Password);
                 if (dt.Rows.Count > 0)
@@ -60,13 +54,9 @@ namespace AdminPanel.Areas.SEC_User.Controllers
                 else
                 {
                     TempData["Error"] = "User Name or Password is invalid!";
-                    return RedirectToAction("SEC_UserLogin");
+                    return RedirectToAction("SEC_AdminDashboard");
                 }
-                if (HttpContext.Session.GetString("UserName") != null && HttpContext.Session.GetString("Password") != null && HttpContext.Session.GetString("UserName") == "Admin")
-                {
-                    return RedirectToAction("SEC_AdminDashboard", "SEC_Admin", new { area = "SEC_Admin" });
-                }
-                else if(HttpContext.Session.GetString("UserName") != null && HttpContext.Session.GetString("Password") != null)
+                if (HttpContext.Session.GetString("UserName") != null && HttpContext.Session.GetString("Password") != null && HttpContext.Session.GetString("UserName") == "Admin" && HttpContext.Session.GetString("Password") == "Admin")
                 {
                     return RedirectToAction("Index", "Home");
                 }
@@ -77,24 +67,7 @@ namespace AdminPanel.Areas.SEC_User.Controllers
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
-            return RedirectToAction("SEC_UserLogin");
+            return RedirectToAction("SEC_AdminDashboard");
         }
-
-        public IActionResult Register(SEC_UserModel sEC_UserModel)
-        {
-            SEC_UserDAL sEC_UserDAL = new SEC_UserDAL();
-            bool IsSuccess = sEC_UserDAL.dbo_PR_SEC_User_Register(sEC_UserModel.UserName, sEC_UserModel.Password, sEC_UserModel.FirstName, sEC_UserModel.LastName, sEC_UserModel.EmailAddress, sEC_UserModel.PhotoPath, sEC_UserModel.Created, sEC_UserModel.Modified);
-            if (IsSuccess)
-            {
-                return RedirectToAction("SEC_UserLogin");
-            }
-            else
-            {
-                return RedirectToAction("SEC_UserRegister");
-            }
-        }
-
-
-
     }
 }

@@ -11,6 +11,8 @@
     <Folder Include="Areas\LOC_State\Data\" />
     <Folder Include="Areas\MST_Branch\Data\" />
     <Folder Include="Areas\MST_Student\Data\" />
+    <Folder Include="Areas\SEC_Admin\Data\" />
+    <Folder Include="Areas\SEC_Admin\Models\" />
     <Folder Include="Areas\SEC_User\Data\" />
   </ItemGroup>
 
