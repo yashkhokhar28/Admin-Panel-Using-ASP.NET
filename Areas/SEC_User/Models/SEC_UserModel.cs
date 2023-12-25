@@ -8,10 +8,11 @@ namespace AdminPanel.Areas.SEC_User.Models
         public int UserID { get; set; }
 
         [Required]
-        [DisplayName("User Name")]
+        [DisplayName("UserName")]
         public string UserName { get; set; }
 
         [Required]
+        [DisplayName("Password")]
         public string Password { get; set; }
 
         public string FirstName { get; set; }

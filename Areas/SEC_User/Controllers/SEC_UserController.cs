@@ -10,7 +10,7 @@ namespace AdminPanel.Areas.SEC_User.Controllers
     public class SEC_UserController : Controller
     {
         public IActionResult SEC_UserLogin()
-        {
+        {   
             return View();
         }
 
@@ -59,7 +59,7 @@ namespace AdminPanel.Areas.SEC_User.Controllers
                 }
                 else
                 {
-                    TempData["Error"] = "User Name or Password is invalid!";
+                    TempData["Error"] = "UserName or Password is invalid!";
                     return RedirectToAction("SEC_UserLogin");
                 }
                 if (HttpContext.Session.GetString("UserName") != null && HttpContext.Session.GetString("Password") != null && HttpContext.Session.GetString("UserName") == "Admin")
