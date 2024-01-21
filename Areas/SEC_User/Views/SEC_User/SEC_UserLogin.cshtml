@@ -26,12 +26,12 @@
                         </div>
 
                         <form class="row g-3 needs-validation" asp-area="SEC_User" asp-action="Login" asp-controller="SEC_User">
-
+                            <div asp-validation-summary="All" class="text-danger"></div>
                             <div class="col-12">
                                 <label for="yourUsername" class="form-label">Username</label>
                                 <div class="input-group has-validation">
                                     <span class="input-group-text" id="inputGroupPrepend"></span>
-                                    <input type="text" name="username" class="form-control" asp-for="UserName" id="yourUsername" required>
+                                    <input type="text" name="username" class="form-control" asp-for="UserName" id="yourUsername">
                                     <span asp-validation-for="UserName" class="text-danger"></span>
                                     <div class="invalid-feedback">Please enter your username.</div>
                                 </div>
@@ -39,7 +39,7 @@
 
                             <div class="col-12">
                                 <label for="yourPassword" class="form-label">Password</label>
-                                <input type="password" name="password" class="form-control" asp-for="Password" id="yourPassword" required>
+                                <input type="password" name="password" class="form-control" asp-for="Password" id="yourPassword">
                                 <span asp-validation-for="Password" class="text-danger"></span>
                                 <div class="invalid-feedback">Please enter your password!</div>
                             </div>
@@ -47,13 +47,9 @@
                             <div class="col-12">
                                 <button class="btn btn-primary w-100" type="submit">Login</button>
                             </div>
-
                         </form>
-
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>

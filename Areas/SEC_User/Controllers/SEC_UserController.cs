@@ -10,7 +10,7 @@ namespace AdminPanel.Areas.SEC_User.Controllers
     public class SEC_UserController : Controller
     {
         public IActionResult SEC_UserLogin()
-        {   
+        {
             return View();
         }
 
@@ -22,27 +22,11 @@ namespace AdminPanel.Areas.SEC_User.Controllers
         [HttpPost]
         public IActionResult Login(SEC_UserModel modelSEC_User)
         {
-            string error = null;
-
-            if (modelSEC_User.UserName == null)
+            if (ModelState.IsValid)
             {
-                error += "User Name is required";
-            }
-            if (modelSEC_User.Password == null)
-            {
-                error += "<br/>Password is required";
-            }
-
-            if (error != null)
-            {
-                TempData["Error"] = error;
-                return RedirectToAction("SEC_UserLogin");
-            }
-            else
-            {
-
                 SEC_UserDAL sEC_UserDAL = new SEC_UserDAL();
                 DataTable dt = sEC_UserDAL.dbo_PR_SEC_User_SelectByUserNamePassword(modelSEC_User.UserName, modelSEC_User.Password);
+
                 if (dt.Rows.Count > 0)
                 {
                     foreach (DataRow dr in dt.Rows)
@@ -56,22 +40,20 @@ namespace AdminPanel.Areas.SEC_User.Controllers
                         HttpContext.Session.SetString("PhotoPath", dr["PhotoPath"].ToString());
                         break;
                     }
-                }
-                else
-                {
-                    TempData["Error"] = "UserName or Password is invalid!";
-                    return RedirectToAction("SEC_UserLogin");
-                }
-                if (HttpContext.Session.GetString("UserName") != null && HttpContext.Session.GetString("Password") != null && HttpContext.Session.GetString("UserName") == "Admin")
-                {
-                    return RedirectToAction("SEC_AdminDashboard", "SEC_Admin", new { area = "SEC_Admin" });
-                }
-                else if(HttpContext.Session.GetString("UserName") != null && HttpContext.Session.GetString("Password") != null)
-                {
-                    return RedirectToAction("Index", "Home");
+
+                    if (HttpContext.Session.GetString("UserName") != null && HttpContext.Session.GetString("Password") != null && HttpContext.Session.GetString("UserName") == "Admin")
+                    {
+                        return RedirectToAction("SEC_AdminDashboard", "SEC_Admin", new { area = "SEC_Admin" });
+                    }
+                    else if (HttpContext.Session.GetString("UserName") != null && HttpContext.Session.GetString("Password") != null)
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
                 }
             }
-            return RedirectToAction("Index");
+
+            // If ModelState is not valid, return the view with validation messages
+            return View("SEC_UserLogin", modelSEC_User);
         }
 
         public IActionResult Logout()
